@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginTop="5dp"
+    android:clickable="true"
+    android:foreground="?selectableItemBackground"
+    android:layout_marginBottom="5dp"
+    card_view:cardCornerRadius="4dp"
+    card_view:cardElevation="@dimen/cardview_default_elevation"
+    android:id="@+id/itemCV">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="14dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/menuItem"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/itemPrice"
+            android:maxLines="3"
+            android:text="\n\n"
+            android:textColor="@color/primary_text_default_material_light"
+            android:textSize="@dimen/abc_text_size_subhead_material"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemPrice"
+            android:textSize="@dimen/abc_text_size_subhead_material"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_centerHorizontal="true"/>
+        <RelativeLayout
+            android:layout_width="100dp"
+            android:layout_height="60dp"
+            android:layout_below="@+id/itemPrice"
+            android:layout_alignParentRight="true"
+            android:id="@+id/dummyArea">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_centerInParent="true"
+                android:text="@string/reviews"
+                android:textSize="12sp"
+                android:textColor="@color/white"
+                android:id="@+id/reviewsBtn"
+                android:background="@color/myAccentColor" />
+            </RelativeLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:id="@+id/halalImg"
+            android:src="@drawable/ic_halal"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/menuItem"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:layout_toLeftOf="@+id/halalImg"
+            android:id="@+id/vegImg"
+            android:src="@drawable/ic_veg"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/menuItem"/>
+
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    tools:context="com.natech.roja.Information.AboutActivity">
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_default_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_below="@+id/toolbar_actionbar"
+        android:layout_height="fill_parent">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:id="@+id/dijologo"
+                android:visibility="gone"
+                android:src="@drawable/roja_logo"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="50dp" />
+            <TextView
+                android:layout_below="@+id/dijologo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/versionTV"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/aboutTV"
+                android:gravity="center"
+                android:visibility="gone"
+                android:text="@string/about_roja"
+                android:layout_marginTop="44dp"
+                android:layout_marginLeft="15dp"
+                android:layout_below="@+id/versionTV"
+                android:layout_centerHorizontal="true"
+                tools:ignore="RtlHardcoded" />
+        </RelativeLayout>
+
+        </ScrollView>
+
+
+</RelativeLayout>

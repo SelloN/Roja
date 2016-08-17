@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="province_array">
+        <item>Select Province</item>
+        <item>Gauteng</item>
+        <item>North West</item>
+        <item>Limpopo</item>
+        <item>Mpumalanga</item>
+        <item>Free State</item>
+        <item>KwaZulu-Natal</item>
+        <item>Northern Cape</item>
+        <item>Eastern Cape</item>
+        <item>Western cape</item>
+    </string-array>
+</resources>

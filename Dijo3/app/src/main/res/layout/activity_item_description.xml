@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.natech.roja.MenuCategories.ItemDescriptionActivity">
+
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:id="@+id/itemDescriptionTV"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_below="@+id/toolbar_actionbar"
+        android:layout_gravity="start|top"
+        />
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:id="@+id/progressBar"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/noExtrasTV"
+        android:text="@string/no_extras"
+        android:visibility="gone"
+        android:textSize="@dimen/abc_text_size_headline_material"/>
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/priceFrame"
+        android:layout_below="@+id/itemDescriptionTV">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/descriptionFrame"
+            android:scrollbars="vertical"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+        </ScrollView>
+
+
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/noteFAB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:src = "@drawable/ic_pencil2"
+        android:layout_margin="16dp"
+        fab:fab_colorNormal="@color/myAccentColor"
+        fab:fab_colorPressed="@color/white_pressed"
+        android:layout_alignParentRight="true"
+        android:layout_above = "@+id/priceFrame"
+        />
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:id="@+id/priceFrame"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/myPrimaryColor"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/itemPriceDescription"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <ImageButton
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:src="@drawable/ic_buy"
+            android:background="@drawable/button_selector"
+            android:id="@+id/addToCart"
+            android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/snackbarPosition">
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

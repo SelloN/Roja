@@ -1,0 +1,222 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.natech.roja.CheckOut.EditItemActivity">
+
+
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_default"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/header"
+        android:orientation="horizontal"
+        android:layout_below="@+id/toolbar_actionbar"
+        android:background="@color/myPrimaryColor"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:id="@+id/itemHead2"
+            android:textSize="18sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    <!--<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:paddingRight="16dp"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:text="Enjoy our succulent ribs marinated in BBQ sauce and basted with sweet and sour sauce. The dish comes with a side of wedges and a salad"
+        android:id="@+id/itemDescriptionTVEdit"
+        android:textSize="@dimen/abc_text_size_small_material"
+        android:layout_below="@+id/header"
+        android:layout_gravity="left|top"
+        />-->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/priceFrame"
+        android:layout_below="@+id/header"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/descriptionFrame"
+        android:scrollbars="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/noExtrasTV"
+            android:text="@string/no_extras"
+            android:visibility="gone"
+            android:textSize="@dimen/abc_text_size_headline_material"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:visibility="invisible"/>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:id="@+id/descriptionFrameEdit"
+            android:scrollbars="vertical"
+            android:orientation="vertical">
+        </LinearLayout>
+        <!--<EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type Note For Waiter"
+            android:id="@+id/waiterNote"
+            android:layout_alignParentBottom="true"/>-->
+
+       <!-- <com.melnykov.fab.FloatingActionButton
+            android:id="@+id/acceptFAB"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="16dp"
+            android:src="@drawable/ic_accept"
+            fab:fab_colorNormal="@color/myAccentColor"
+            fab:fab_colorPressed="@color/white_pressed"
+            android:layout_alignParentBottom = "true"
+            android:layout_alignParentRight="true"/>-->
+
+
+
+    </RelativeLayout>
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/floatMenuEdit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        android:layout_above="@+id/priceFrame"
+        fab:fab_addButtonColorNormal="@color/myAccentColor"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:fab_labelsPosition="left">
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/noteEditFAB"
+            android:src = "@drawable/ic_pencil2"
+            fab:fab_colorNormal="@color/myPrimaryColor"
+            fab:fab_title="Edit Note"
+            fab:fab_size="mini"
+            fab:fab_colorPressed="@color/white_pressed"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/acceptFAB"
+            fab:fab_colorNormal="@color/myPrimaryColor"
+            android:src = "@drawable/ic_accept"
+            fab:fab_size="mini"
+            fab:fab_title="Save"
+            fab:fab_colorPressed="@color/white_pressed"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dummyArea"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        android:layout_margin="15dp"
+        android:layout_above="@+id/priceFrame"
+        />
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:id="@+id/priceFrame"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@color/myPrimaryColor"
+        android:paddingLeft="16dp"
+        android:paddingBottom="5dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/price"
+            android:textSize="17sp"
+            android:textColor="#ffffffff"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/itemPriceDescription2"
+            android:layout_alignBottom="@+id/decreaseQuantity"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/qty"
+            android:id="@+id/itemDescriptionQuantity"
+            android:textColor="#ffffffff"
+            android:textSize="17sp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/itemDescriptionQuantityTV"
+            android:textColor="#ffffffff"
+            android:textSize="15sp"
+            android:layout_alignBottom="@+id/itemPriceDescription2"
+            android:layout_alignLeft="@+id/itemDescriptionQuantity"
+            android:layout_alignStart="@+id/itemDescriptionQuantity" />
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_add"
+            android:id="@+id/increaseQuantity"
+            android:paddingBottom="10dp"
+            android:background="@drawable/button_selector"
+            android:layout_alignParentBottom="true"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/decreaseQuantity" />
+        <ImageButton
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:paddingBottom="10dp"
+            android:src="@drawable/ic_minus"
+            android:id="@+id/decreaseQuantity"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/button_selector"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+    </RelativeLayout>
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/snackbarPosition">
+    </android.support.design.widget.CoordinatorLayout>
+
+
+</RelativeLayout>

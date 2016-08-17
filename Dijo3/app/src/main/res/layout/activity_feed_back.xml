@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.natech.roja.Information.FeedBackActivity">
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_default_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbar_actionbar">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:hint="@string/write_feedback"
+                android:layout_margin="15dp"
+                android:visibility="gone"
+                android:maxLength="300"
+                android:id="@+id/feedBackTV"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:textColor="@color/myPrimaryColor"
+                android:background="@drawable/button_selector2"
+                android:id="@+id/submitFeedbackBtn"
+                android:visibility="gone"
+                android:layout_below="@+id/feedBackTV"
+                android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/snackbarPosition">
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

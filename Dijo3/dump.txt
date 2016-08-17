@@ -1,0 +1,1837 @@
+Current Alarm Manager state:
+nowRTC=1454763298235=2016-02-06 14:54:58 nowELAPSED=399110405
+Next alarm: 399112170 = 2016-02-06 14:55:00
+Next wakeup: 399169452 = 2016-02-06 14:55:57
+
+Pending alarm batches: 29
+Batch{42c442f8 num=1 start=399112170 end=399112170}:
+  RTC #0: Alarm{42c442a8 type 1 com.vodafone.signature.timeandweather}
+    type=1 whenElapsed=399112170 when=+1s765ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42df26e0: PendingIntentRecord{42361058 com.vodafone.signature.timeandweather broadcastIntent}}
+Batch{42c3dae0 num=1 start=399112170 end=399112170 STANDALONE}:
+  ELAPSED #0: Alarm{42c3da90 type 3 android}
+    type=3 whenElapsed=399112170 when=+1s765ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{41d385c8: PendingIntentRecord{41c51b28 android broadcastIntent}}
+Batch{42c443d0 num=3 start=399169452 end=399197672}:
+  RTC_WAKEUP #2: Alarm{42c90d00 type 0 com.vodafone.signature.timeandweather}
+    type=0 whenElapsed=399128316 when=+17s911ms window=-1 repeatInterval=3600000 count=0
+    operation=PendingIntent{428bd7d8: PendingIntentRecord{424f91d8 com.vodafone.signature.timeandweather startService}}
+  ELAPSED_WAKEUP #1: Alarm{428b7050 type 2 com.android.phone}
+    type=2 whenElapsed=399169452 when=+59s47ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{425873f0: PendingIntentRecord{42b8d9f0 com.android.phone broadcastIntent}}
+  ELAPSED #0: Alarm{42c44380 type 3 com.google.android.gms}
+    type=3 whenElapsed=399159798 when=+49s393ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{42760798: PendingIntentRecord{42250730 com.google.android.gms broadcastIntent}}
+Batch{42c90da0 num=1 start=399226081 end=399226081}:
+  ELAPSED_WAKEUP #0: Alarm{42c90d50 type 2 com.facebook.lite}
+    type=2 whenElapsed=399226081 when=+1m55s676ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{426308f0: PendingIntentRecord{422755e8 com.facebook.lite broadcastIntent}}
+Batch{42c90e78 num=6 start=399323801 end=399340810}:
+  RTC_WAKEUP #5: Alarm{42de5c48 type 0 android}
+    type=0 whenElapsed=399323801 when=+3m33s396ms window=-1 repeatInterval=3715505 count=0
+    operation=PendingIntent{41d18558: PendingIntentRecord{41ab7a30 android broadcastIntent}}
+  RTC #4: Alarm{42de5bf8 type 1 com.google.android.gms}
+    type=1 whenElapsed=399241591 when=+2m11s186ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{424405a8: PendingIntentRecord{41a12878 com.google.android.gms startService}}
+  ELAPSED #3: Alarm{42de5ba8 type 3 com.google.android.talk}
+    type=3 whenElapsed=399281906 when=+2m51s501ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42877e08: PendingIntentRecord{42735428 com.google.android.talk broadcastIntent}}
+  ELAPSED #2: Alarm{42de5b58 type 3 com.google.android.talk}
+    type=3 whenElapsed=399274175 when=+2m43s770ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42afb5e8: PendingIntentRecord{42b4ee30 com.google.android.talk broadcastIntent}}
+  ELAPSED #1: Alarm{42de5b08 type 3 com.google.android.talk}
+    type=3 whenElapsed=399268890 when=+2m38s485ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42a897e0: PendingIntentRecord{42c1e800 com.google.android.talk broadcastIntent}}
+  ELAPSED #0: Alarm{42c90e28 type 3 com.google.android.gms}
+    type=3 whenElapsed=399256463 when=+2m26s58ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{428b6e58: PendingIntentRecord{4241e940 com.google.android.gms broadcastIntent}}
+Batch{42df01b8 num=1 start=399359573 end=399359573}:
+  ELAPSED_WAKEUP #0: Alarm{42df0168 type 2 com.google.android.googlequicksearchbox}
+    type=2 whenElapsed=399359573 when=+4m9s168ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{424bda58: PendingIntentRecord{4241b5d8 com.google.android.googlequicksearchbox startService}}
+Batch{42df0278 num=1 start=399361209 end=399361209}:
+  ELAPSED_WAKEUP #0: Alarm{42df0228 type 2 com.google.android.googlequicksearchbox}
+    type=2 whenElapsed=399361209 when=+4m10s804ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{4228c1f0: PendingIntentRecord{4280c9c0 com.google.android.googlequicksearchbox startService}}
+Batch{42c90eb8 num=1 start=399394540 end=399394540}:
+  ELAPSED_WAKEUP #0: Alarm{42df0300 type 2 com.google.android.googlequicksearchbox}
+    type=2 whenElapsed=399394540 when=+4m44s135ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42936070: PendingIntentRecord{41df0bb8 com.google.android.googlequicksearchbox broadcastIntent}}
+Batch{42c44470 num=1 start=399413170 end=399413170}:
+  RTC #0: Alarm{42e99be0 type 1 com.android.deskclock}
+    type=1 whenElapsed=399413170 when=+5m2s765ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{4277c1d0: PendingIntentRecord{428c28f0 com.android.deskclock broadcastIntent}}
+Batch{42e99ce0 num=6 start=399750172 end=399750172}:
+  RTC_WAKEUP #5: Alarm{4303ece8 type 0 com.android.vending}
+    type=0 whenElapsed=399641549 when=+8m51s144ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{42633a50: PendingIntentRecord{4272e5c8 com.android.vending startService}}
+  RTC #4: Alarm{4303ec98 type 1 com.google.android.inputmethod.latin}
+    type=1 whenElapsed=399625013 when=+8m34s608ms window=-1 repeatInterval=3600000 count=0
+    operation=PendingIntent{4227d028: PendingIntentRecord{422c7da0 com.google.android.inputmethod.latin broadcastIntent}}
+  ELAPSED_WAKEUP #3: Alarm{4303ec48 type 2 android}
+    type=2 whenElapsed=399750172 when=+10m39s767ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{4233ac90: PendingIntentRecord{4233abf0 android broadcastIntent}}
+  ELAPSED_WAKEUP #2: Alarm{4303ebf8 type 2 android}
+    type=2 whenElapsed=399627500 when=+8m37s95ms window=-1 repeatInterval=5400000 count=0
+    operation=PendingIntent{41db91d0: PendingIntentRecord{424a1b00 android broadcastIntent}}
+  ELAPSED #1: Alarm{4303eba8 type 3 android}
+    type=3 whenElapsed=399624211 when=+8m33s806ms window=-1 repeatInterval=1800000 count=0
+    operation=PendingIntent{41fd4ca8: PendingIntentRecord{42333190 android broadcastIntent}}
+  ELAPSED #0: Alarm{42e99c90 type 3 com.whatsapp}
+    type=3 whenElapsed=399600000 when=+8m9s595ms window=-1 repeatInterval=3600000 count=0
+    operation=PendingIntent{42b54a50: PendingIntentRecord{42531858 com.whatsapp broadcastIntent}}
+Batch{42264f28 num=3 start=399826236 end=400286972}:
+  ELAPSED_WAKEUP #2: Alarm{42264fe8 type 2 com.facebook.orca}
+    type=2 whenElapsed=399826236 when=+11m55s831ms window=-1 repeatInterval=900000 count=0
+    operation=PendingIntent{424b2738: PendingIntentRecord{41c83760 com.facebook.orca broadcastIntent}}
+  ELAPSED #1: Alarm{42264f98 type 3 com.google.android.talk}
+    type=3 whenElapsed=399805428 when=+11m35s23ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42695340: PendingIntentRecord{426786b8 com.google.android.talk broadcastIntent}}
+  ELAPSED #0: Alarm{4303ed38 type 3 android}
+    type=3 whenElapsed=399782255 when=+11m11s850ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{422f2028: PendingIntentRecord{422f1f88 android broadcastIntent}}
+Batch{42265088 num=3 start=400810260 end=400810260}:
+  RTC #2: Alarm{422f0630 type 1 com.google.android.gms}
+    type=1 whenElapsed=400612576 when=+25m2s171ms window=-1 repeatInterval=1800000 count=0
+    operation=PendingIntent{42660cf0: PendingIntentRecord{425741f0 com.google.android.gms broadcastIntent}}
+  ELAPSED #1: Alarm{422f05e0 type 3 com.google.android.gms}
+    type=3 whenElapsed=400810260 when=+28m19s855ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42728040: PendingIntentRecord{42718e60 com.google.android.gms broadcastIntent}}
+  ELAPSED_WAKEUP #0: Alarm{42265038 type 2 com.google.android.apps.maps}
+    type=2 whenElapsed=400550031 when=+23m59s626ms window=-1 repeatInterval=3600000 count=0
+    operation=PendingIntent{42688ca0: PendingIntentRecord{422e06b0 com.google.android.apps.maps startService}}
+Batch{422f06d0 num=11 start=402793368 end=402793368}:
+  RTC_WAKEUP #10: Alarm{423aff68 type 0 com.android.providers.calendar}
+    type=0 whenElapsed=402793368 when=+1h1m22s963ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42aab798: PendingIntentRecord{42ac8be8 com.android.providers.calendar broadcastIntent}}
+  RTC_WAKEUP #9: Alarm{423aff18 type 0 com.natech.dijo}
+    type=0 whenElapsed=402657170 when=+59m6s765ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{41a33c50: PendingIntentRecord{425859b8 com.natech.dijo broadcastIntent}}
+  RTC #8: Alarm{423afec8 type 1 com.twitter.android}
+    type=1 whenElapsed=402605064 when=+58m14s659ms window=-1 repeatInterval=3600000 count=0
+    operation=PendingIntent{425f4810: PendingIntentRecord{4241c3c0 com.twitter.android startService}}
+  ELAPSED #7: Alarm{4239d820 type 3 com.google.android.gms}
+    type=3 whenElapsed=402268800 when=+52m38s395ms window=10800000 repeatInterval=0 count=0
+    operation=PendingIntent{423a86a0: PendingIntentRecord{421f1ba8 com.google.android.gms broadcastIntent}}
+  ELAPSED #6: Alarm{4239d7d0 type 3 com.google.android.talk}
+    type=3 whenElapsed=401581520 when=+41m11s115ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42672fa8: PendingIntentRecord{427088e0 com.google.android.talk broadcastIntent}}
+  ELAPSED #5: Alarm{4239d780 type 3 com.google.android.talk}
+    type=3 whenElapsed=401579341 when=+41m8s936ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{41b7e9b0: PendingIntentRecord{422cd330 com.google.android.talk broadcastIntent}}
+  ELAPSED #4: Alarm{4239d730 type 3 com.google.android.talk}
+    type=3 whenElapsed=401570849 when=+41m0s444ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{4271dfc0: PendingIntentRecord{4255a3d0 com.google.android.talk broadcastIntent}}
+  ELAPSED #3: Alarm{4239d6e0 type 3 com.google.android.talk}
+    type=3 whenElapsed=401563628 when=+40m53s223ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{41e8fcd0: PendingIntentRecord{42790738 com.google.android.talk broadcastIntent}}
+  ELAPSED #2: Alarm{4239d690 type 3 com.google.android.talk}
+    type=3 whenElapsed=401556866 when=+40m46s461ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42c417c8: PendingIntentRecord{42bf1008 com.google.android.talk broadcastIntent}}
+  ELAPSED #1: Alarm{422f0758 type 3 com.google.android.talk}
+    type=3 whenElapsed=401549854 when=+40m39s449ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{41a37c10: PendingIntentRecord{4264d6c8 com.google.android.talk broadcastIntent}}
+  ELAPSED_WAKEUP #0: Alarm{422f0680 type 2 com.opera.mini.native}
+    type=2 whenElapsed=401376440 when=+37m46s35ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{42093160: PendingIntentRecord{4202e6a0 com.opera.mini.native broadcastIntent}}
+Batch{422f07a8 num=5 start=407962235 end=407962235}:
+  RTC_WAKEUP #4: Alarm{423b3770 type 0 com.google.android.googlequicksearchbox}
+    type=0 whenElapsed=404769110 when=+1h34m18s705ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{424842f0: PendingIntentRecord{41dac7c0 com.google.android.googlequicksearchbox startService}}
+  ELAPSED #3: Alarm{423b3720 type 3 com.google.android.gms}
+    type=3 whenElapsed=407962235 when=+2h27m31s830ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{41b76a80: PendingIntentRecord{42701c50 com.google.android.gms broadcastIntent}}
+  ELAPSED #2: Alarm{423b36d0 type 3 com.google.android.gms}
+    type=3 whenElapsed=404496977 when=+1h29m46s572ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{424066f0: PendingIntentRecord{424dfec0 com.google.android.gms broadcastIntent}}
+  ELAPSED #1: Alarm{423b0050 type 3 com.android.phone}
+    type=3 whenElapsed=403226053 when=+1h8m35s648ms window=-1 repeatInterval=28800000 count=0
+    operation=PendingIntent{4226e730: PendingIntentRecord{41baf808 com.android.phone broadcastIntent}}
+  ELAPSED #0: Alarm{423affb8 type 3 com.google.android.gms}
+    type=3 whenElapsed=403200000 when=+1h8m9s595ms window=-1 repeatInterval=7200000 count=0
+    operation=PendingIntent{42401300: PendingIntentRecord{42333c10 com.google.android.gms startService}}
+Batch{423b3810 num=1 start=409923871 end=409923871}:
+  ELAPSED_WAKEUP #0: Alarm{423b37c0 type 2 com.vodafone.vodafone360updates}
+    type=2 whenElapsed=409923871 when=+3h0m13s466ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{425c92a8: PendingIntentRecord{42475ef8 com.vodafone.vodafone360updates startService}}
+Batch{423b6920 num=1 start=415856373 end=415856373}:
+  RTC #0: Alarm{423b68d0 type 1 android}
+    type=1 whenElapsed=415856373 when=+4h39m5s968ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{41a2d520: PendingIntentRecord{422991d0 android broadcastIntent}}
+Batch{423b69b0 num=4 start=428525352 end=428525352}:
+  ELAPSED_WAKEUP #3: Alarm{423bf318 type 2 com.facebook.orca}
+    type=2 whenElapsed=428525352 when=+8h10m14s947ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42883d10: PendingIntentRecord{425b4590 com.facebook.orca broadcastIntent}}
+  ELAPSED #2: Alarm{423bf2c8 type 3 com.google.android.talk}
+    type=3 whenElapsed=425262402 when=+7h15m51s997ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{426f6b20: PendingIntentRecord{426f6ae8 com.google.android.talk broadcastIntent}}
+  ELAPSED #1: Alarm{423b6a38 type 3 com.google.android.talk}
+    type=3 whenElapsed=421649432 when=+6h15m39s27ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42a1c520: PendingIntentRecord{427a49e8 com.google.android.talk broadcastIntent}}
+  ELAPSED #0: Alarm{423b6960 type 3 com.google.android.talk}
+    type=3 whenElapsed=417107899 when=+4h59m57s494ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42a15fa8: PendingIntentRecord{42ac7e10 com.google.android.talk broadcastIntent}}
+Batch{423bf490 num=5 start=431812170 end=431812170}:
+  RTC #4: Alarm{423e9ee8 type 1 com.android.calendar}
+    type=1 whenElapsed=431812170 when=+9h5m1s765ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42c3b9d8: PendingIntentRecord{42234328 com.android.calendar broadcastIntent}}
+  RTC_WAKEUP #3: Alarm{423e9f38 type 0 com.google.android.keep}
+    type=0 whenElapsed=431812170 when=+9h5m1s765ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42946b00: PendingIntentRecord{42334fc0 com.google.android.keep broadcastIntent}}
+  RTC #2: Alarm{423e9f88 type 1 com.google.android.gms}
+    type=1 whenElapsed=431812170 when=+9h5m1s765ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42b54a60: PendingIntentRecord{4238c5b8 com.google.android.gms broadcastIntent}}
+  RTC_WAKEUP #1: Alarm{423e9fd8 type 0 com.whatsapp}
+    type=0 whenElapsed=431812170 when=+9h5m1s765ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42bd9c38: PendingIntentRecord{424cfd90 com.whatsapp broadcastIntent}}
+  ELAPSED #0: Alarm{423bf440 type 3 com.google.android.talk}
+    type=3 whenElapsed=428872837 when=+8h16m2s432ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{423a8210: PendingIntentRecord{42321bb0 com.google.android.talk broadcastIntent}}
+Batch{423bf3b8 num=1 start=431812170 end=431812170 STANDALONE}:
+  RTC #0: Alarm{423bf368 type 1 android}
+    type=1 whenElapsed=431812170 when=+9h5m1s765ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{41e2c848: PendingIntentRecord{41bfd5d0 android broadcastIntent}}
+Batch{423b6aa0 num=9 start=439012170 end=439012170}:
+  RTC_WAKEUP #8: Alarm{424be3c0 type 0 com.whatsapp}
+    type=0 whenElapsed=439012170 when=+11h5m1s765ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42bef890: PendingIntentRecord{425522d8 com.whatsapp broadcastIntent}}
+  RTC #7: Alarm{424be370 type 1 com.google.android.gms}
+    type=1 whenElapsed=432053705 when=+9h9m3s300ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{42413590: PendingIntentRecord{4234f5d0 com.google.android.gms broadcastIntent}}
+  ELAPSED #6: Alarm{424be320 type 3 com.google.android.gms}
+    type=3 whenElapsed=433862694 when=+9h39m12s289ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{4275b4e0: PendingIntentRecord{42336bf8 com.google.android.gms broadcastIntent}}
+  ELAPSED #5: Alarm{423ee820 type 3 com.google.android.gms}
+    type=3 whenElapsed=432069071 when=+9h9m18s666ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{4276c6d8: PendingIntentRecord{426e62f8 com.google.android.gms broadcastIntent}}
+  ELAPSED #4: Alarm{423ee7d0 type 3 com.google.android.gms}
+    type=3 whenElapsed=432036904 when=+9h8m46s499ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42234f50: PendingIntentRecord{42353868 com.google.android.gms broadcastIntent}}
+  ELAPSED_WAKEUP #3: Alarm{423ee780 type 2 android}
+    type=2 whenElapsed=432027637 when=+9h8m37s232ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{4221c548: PendingIntentRecord{424d0818 android broadcastIntent}}
+  ELAPSED #2: Alarm{423ea028 type 3 com.google.android.gms}
+    type=3 whenElapsed=432000000 when=+9h8m9s595ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42a09dc8: PendingIntentRecord{42ada030 com.google.android.gms startService}}
+  ELAPSED #1: Alarm{423ee6e0 type 3 com.whatsapp}
+    type=3 whenElapsed=432000000 when=+9h8m9s595ms window=-1 repeatInterval=43200000 count=0
+    operation=PendingIntent{42b37398: PendingIntentRecord{42520138 com.whatsapp broadcastIntent}}
+  ELAPSED #0: Alarm{423ee730 type 3 com.google.android.gms}
+    type=3 whenElapsed=432000000 when=+9h8m9s595ms window=-1 repeatInterval=43200000 count=0
+    operation=PendingIntent{42404058: PendingIntentRecord{42334bd0 com.google.android.gms startService}}
+Batch{424be460 num=9 start=473969748 end=474404242}:
+  RTC_WAKEUP #8: Alarm{424e3578 type 0 com.google.android.apps.plus}
+    type=0 whenElapsed=473311413 when=+20h36m41s8ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{426397d0: PendingIntentRecord{4273c648 com.google.android.apps.plus broadcastIntent}}
+  RTC #7: Alarm{424e3528 type 1 com.google.android.gms}
+    type=1 whenElapsed=465078651 when=+18h19m28s246ms window=-1 repeatInterval=85801495 count=0
+    operation=PendingIntent{4253c818: PendingIntentRecord{4269f868 com.google.android.gms startService}}
+  RTC #6: Alarm{424cc9e0 type 1 com.google.android.gms}
+    type=1 whenElapsed=450288161 when=+14h12m57s755ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{42665cc8: PendingIntentRecord{42208e28 com.google.android.gms broadcastIntent}}
+  RTC_WAKEUP #5: Alarm{424cc990 type 0 com.estrongs.android.pop}
+    type=0 whenElapsed=442134981 when=+11h57m4s576ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{41db8fa8: PendingIntentRecord{42639660 com.estrongs.android.pop broadcastIntent}}
+  RTC #4: Alarm{424cc940 type 1 com.google.android.gms}
+    type=1 whenElapsed=441930775 when=+11h53m40s370ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{41c6a6b8: PendingIntentRecord{424c8d70 com.google.android.gms startService}}
+  ELAPSED #3: Alarm{424cc8f0 type 3 com.google.android.talk}
+    type=3 whenElapsed=473969748 when=+20h47m39s343ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{426727f0: PendingIntentRecord{42672190 com.google.android.talk broadcastIntent}}
+  ELAPSED #2: Alarm{424cc8a0 type 3 com.google.android.talk}
+    type=3 whenElapsed=447233901 when=+13h22m3s496ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42254df8: PendingIntentRecord{42ac5f18 com.google.android.talk broadcastIntent}}
+  ELAPSED #1: Alarm{424cc850 type 3 com.google.android.talk}
+    type=3 whenElapsed=443632450 when=+12h22m2s45ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{427feac8: PendingIntentRecord{430b57e8 com.google.android.talk broadcastIntent}}
+  ELAPSED #0: Alarm{424be410 type 3 com.google.android.talk}
+    type=3 whenElapsed=439985946 when=+11h21m15s541ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{4263b380: PendingIntentRecord{42474bb0 com.google.android.talk broadcastIntent}}
+Batch{424e3618 num=4 start=484378811 end=484378811}:
+  RTC #3: Alarm{42501250 type 1 com.facebook.orca}
+    type=1 whenElapsed=484378811 when=+23h41m8s405ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{42644200: PendingIntentRecord{4221ecb8 com.facebook.orca broadcastIntent}}
+  RTC #2: Alarm{424e3690 type 1 com.google.android.gms}
+    type=1 whenElapsed=480032246 when=+22h28m41s841ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{41da41f8: PendingIntentRecord{426030a8 com.google.android.gms broadcastIntent}}
+  ELAPSED_WAKEUP #1: Alarm{424e3640 type 2 com.google.android.apps.plus}
+    type=2 whenElapsed=482209811 when=+23h4m59s406ms window=-1 repeatInterval=43200000 count=0
+    operation=PendingIntent{42589090: PendingIntentRecord{42631250 com.google.android.apps.plus broadcastIntent}}
+  ELAPSED #0: Alarm{424e35c8 type 3 com.google.android.talk}
+    type=3 whenElapsed=480323102 when=+22h33m32s697ms window=-1 repeatInterval=86400000 count=0
+    operation=PendingIntent{42b3c458: PendingIntentRecord{42a0dc20 com.google.android.talk broadcastIntent}}
+Batch{425012f0 num=1 start=484379111 end=484379111}:
+  RTC #0: Alarm{425012a0 type 1 com.facebook.orca}
+    type=1 whenElapsed=484379111 when=+23h41m8s706ms window=0 repeatInterval=0 count=0
+    operation=PendingIntent{421e9b90: PendingIntentRecord{4228c5f0 com.facebook.orca startService}}
+Batch{425013c8 num=2 start=518449668 end=591272707}:
+  RTC_WAKEUP #1: Alarm{42540ea8 type 0 com.google.android.apps.plus}
+    type=0 whenElapsed=508916961 when=+1d6h30m6s556ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{41a99428: PendingIntentRecord{41a9aca0 com.google.android.apps.plus broadcastIntent}}
+  ELAPSED #0: Alarm{42501378 type 3 com.google.android.talk}
+    type=3 whenElapsed=518449668 when=+1d9h8m59s263ms window=-1 repeatInterval=259200000 count=0
+    operation=PendingIntent{42429638: PendingIntentRecord{42303008 com.google.android.talk broadcastIntent}}
+Batch{42540f48 num=1 start=604844238 end=759145442}:
+  RTC_WAKEUP #0: Alarm{42540ef8 type 0 com.google.android.partnersetup}
+    type=0 whenElapsed=604844238 when=+2d9h8m53s833ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{424120d0: PendingIntentRecord{4250eec8 com.google.android.partnersetup startService}}
+Batch{42541020 num=2 start=837219037 end=1165801340}:
+  RTC #1: Alarm{42572758 type 1 com.google.android.gms}
+    type=1 whenElapsed=837219037 when=+5d1h41m48s632ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{42bd7b78: PendingIntentRecord{41b60740 com.google.android.gms broadcastIntent}}
+  RTC #0: Alarm{42540fd0 type 1 com.google.android.gms}
+    type=1 whenElapsed=826685735 when=+4d22h46m15s329ms window=-1 repeatInterval=524695000 count=0
+    operation=PendingIntent{4288a760: PendingIntentRecord{423728b8 com.google.android.gms broadcastIntent}}
+Batch{42501420 num=1 start=1972190604 end=1972190604}:
+  RTC_WAKEUP #0: Alarm{425727a8 type 0 com.vodafone.addressbook}
+    type=0 whenElapsed=1972190604 when=+18d4h58m0s199ms window=0 repeatInterval=2592000000 count=0
+    operation=PendingIntent{4278f7c0: PendingIntentRecord{423f0ae8 com.vodafone.addressbook broadcastIntent}}
+Batch{425728a8 num=1 start=1975548108 end=1975548108}:
+  RTC_WAKEUP #0: Alarm{42572858 type 0 com.vodafone.addressbook}
+    type=0 whenElapsed=1975548108 when=+18d5h53m57s703ms window=0 repeatInterval=2592000000 count=0
+    operation=PendingIntent{42758060: PendingIntentRecord{42483a60 com.vodafone.addressbook broadcastIntent}}
+Batch{425857d0 num=7 start=315422358017 end=551580719020}:
+  ELAPSED #6: Alarm{425872a8 type 3 com.google.android.gms}
+    type=3 whenElapsed=315422358017 when=+999d23h59m59s999ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{423f0fe8: PendingIntentRecord{423fc198 com.google.android.gms startService}}
+  ELAPSED #5: Alarm{42587258 type 3 com.google.android.gms}
+    type=3 whenElapsed=315360036876 when=+999d23h59m59s999ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{41bd27c0: PendingIntentRecord{41bd2768 com.google.android.gms startService}}
+  ELAPSED #4: Alarm{42587208 type 3 com.google.android.gms}
+    type=3 whenElapsed=315360029917 when=+999d23h59m59s999ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{42226650: PendingIntentRecord{42226778 com.google.android.gms startService}}
+  ELAPSED #3: Alarm{425858e0 type 3 com.google.android.gms}
+    type=3 whenElapsed=315360029914 when=+999d23h59m59s999ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{41b1d3c0: PendingIntentRecord{4222b4e8 com.google.android.gms startService}}
+  ELAPSED #2: Alarm{42585890 type 3 com.google.android.gms}
+    type=3 whenElapsed=315360029892 when=+999d23h59m59s999ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{4206b840: PendingIntentRecord{4223dee0 com.google.android.gms startService}}
+  ELAPSED #1: Alarm{42585840 type 3 com.google.android.gms}
+    type=3 whenElapsed=315360029493 when=+999d23h59m59s999ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{41c48690: PendingIntentRecord{41c48610 com.google.android.gms startService}}
+  ELAPSED #0: Alarm{42585780 type 3 com.google.android.gms}
+    type=3 whenElapsed=315360029140 when=+999d23h59m59s999ms window=-1 repeatInterval=0 count=0
+    operation=PendingIntent{424c2488: PendingIntentRecord{4249a9f0 com.google.android.gms startService}}
+
+  Broadcast ref count: 0
+
+  Top Alarms:
+    +30m13s678ms running, 0 wakeups, 6736 alarms: com.vodafone.signature.timeandweather
+       act=android.appwidget.action.APPWIDGET_UPDATE cmp={com.vodafone.signature.timeandweather/com.vodafone.signature.timeandweather.appwidgetprovider.SignatureAppWidgetProvider}
+    +19m30s869ms running, 12259 wakeups, 65648 alarms: com.android.phone
+       act=com.android.yulong.fastdormancy.data_traffic_poll
+    +10m25s387ms running, 0 wakeups, 265 alarms: com.google.android.gms
+       act=com.google.android.intent.action.GCM_RECONNECT
+    +9m55s702ms running, 797 wakeups, 797 alarms: com.facebook.orca
+       act=com.facebook.push.mqtt.keepalive.b.ACTION_INEXACT_ALARM.com.facebook.orca
+    +6m19s534ms running, 0 wakeups, 6651 alarms: android
+       act=android.intent.action.TIME_TICK
+    +5m9s726ms running, 1048 wakeups, 1048 alarms: com.whatsapp
+       act=com.whatsapp.messaging.MessageService.CLIENT_PINGER_ACTION
+    +4m43s568ms running, 1066 wakeups, 1066 alarms: com.facebook.lite
+       act=com.facebook.rti.b.c.b.ACTION_INEXACT_ALARM.
+    +3m37s908ms running, 0 wakeups, 1237 alarms: com.vodafone.signature.timeandweather
+       act=com.vodafone.signature.timeandweather.action.ACTION_ANIMATION_START cmp={com.vodafone.signature.timeandweather/com.vodafone.signature.timeandweather.appwidgetprovider.SignatureAppWidgetProvider}
+    +3m32s663ms running, 0 wakeups, 347 alarms: com.whatsapp
+       act=com.whatsapp.action.HOURLY_CRON cmp={com.whatsapp/com.whatsapp.AlarmBroadcastReceiver}
+    +3m21s3ms running, 1001 wakeups, 1001 alarms: com.android.phone
+       act=com.android.internal.telephony.data-stall
+ 
+  Alarm Stats:
+  com.google.android.keep +2s940ms running, 4 wakeups:
+    +2s940ms 4 wakes 4 alarms: act=com.google.android.keep.intent.action.REFRESH_NOTIFICATION cmp={com.google.android.keep/com.google.android.keep.notification.AlertReceiver}
+  android +9m43s197ms running, 1036 wakeups:
+    +6m19s534ms 0 wakes 6651 alarms: act=android.intent.action.TIME_TICK
+    +1m13s907ms 800 wakes 800 alarms: act=android.content.syncmanager.SYNC_ALARM
+    +1m11s1ms 0 wakes 222 alarms: act=com.android.server.action.NETWORK_STATS_POLL
+    +1m5s334ms 73 wakes 73 alarms: act=android.appwidget.action.APPWIDGET_UPDATE cmp={com.dictionary/com.dictionary.WordWidget}
+    +25s66ms 1 wakes 555 alarms: act=android.net.ConnectivityService.action.PKT_CNT_SAMPLE_INTERVAL_ELAPSED
+    +5s175ms 146 wakes 146 alarms: act=android.app.backup.intent.RUN
+    +4s813ms 4 wakes 4 alarms: act=android.appwidget.action.APPWIDGET_UPDATE cmp={com.google.android.googlequicksearchbox/com.google.android.apps.sidekick.widget.PredictiveCardsWidgetProvider}
+    +1s630ms 0 wakes 4 alarms: act=android.intent.action.DATE_CHANGED
+    +405ms 12 wakes 12 alarms: act=com.android.server.IdleMaintenanceService.action.UPDATE_IDLE_MAINTENANCE_STATE
+    +8ms 0 wakes 2 alarms: act=com.android.server.action.UPDATE_TWILIGHT_STATE
+  com.microsoft.launcher +11m0s67ms running, 1375 wakeups:
+    +1m2s396ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baefd8
+    +58s772ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd99a0
+    +58s270ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e7fbf0
+    +55s822ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd9460
+    +53s989ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cd4c68
+    +52s23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ed2140
+    +49s584ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e7f650
+    +45s162ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bc96b8
+    +45s12ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cd4748
+    +36s176ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bc9050
+    +30s53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd3c60
+    +24s775ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c49088
+    +22s261ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f4c238
+    +21s275ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd2e48
+    +15s934ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c48a20
+    +15s520ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d02458
+    +15s89ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420160e8
+    +12s614ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f4c7d8
+    +12s368ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b21d78
+    +12s266ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba6b88
+    +9s937ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42016d08
+    +9s871ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcd910
+    +9s351ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d1a008
+    +8s611ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c91b30
+    +7s754ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420172a8
+    +7s12ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d6faf0
+    +6s789ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c54898
+    +6s529ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e6b448
+    +6s140ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cfbd68
+    +4s623ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a8f668
+    +4s198ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e22f08
+    +4s87ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f4f678
+    +4s54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c710a8
+    +3s770ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df9f08
+    +3s383ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d74de0
+    +3s321ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d7f220
+    +3s48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d8dd00
+    +3s17ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c71468
+    +2s790ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e94f88
+    +2s784ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42148d70
+    +2s373ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420ac7c8
+    +2s242ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e303f0
+    +2s230ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcd2a8
+    +2s12ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dca588
+    +1s947ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc69c0
+    +1s803ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de4830
+    +1s739ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba77d0
+    +1s680ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ef52a0
+    +1s430ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41da58e0
+    +1s355ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dbf1a0
+    +1s325ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bab300
+    +1s228ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c76560
+    +1s191ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdbec0
+    +1s89ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9ef90
+    +1s85ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f83058
+    +1s50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d19a68
+    +1s40ms 2 wakes 2 alarms: act=com.ubikod.capptain.b$1@41ba0e88
+    +997ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a0a788
+    +863ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e6b968
+    +852ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bae648
+    +849ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bad130
+    +838ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ef97b8
+    +821ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd9ee8
+    +810ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e3a750
+    +793ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d02978
+    +779ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42016688
+    +778ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbff10
+    +775ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be5e68
+    +755ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42000f88
+    +746ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d32ab8
+    +732ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c90760
+    +732ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f50180
+    +717ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be4ec8
+    +705ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d7d1c0
+    +705ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4218ef00
+    +702ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a96aa0
+    +685ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d6f550
+    +675ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c834b0
+    +658ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f2b158
+    +652ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a69a30
+    +642ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ee0e40
+    +632ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41daf5f8
+    +613ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c91e58
+    +586ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c936a8
+    +583ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41eb2ae8
+    +580ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e12568
+    +562ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e61020
+    +561ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d19cf8
+    +555ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9ee60
+    +550ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c736f0
+    +545ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c993f8
+    +534ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9fff0
+    +533ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c54230
+    +523ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cba000
+    +501ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bc7900
+    +498ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d41d28
+    +493ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ed2790
+    +489ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd3928
+    +459ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c91610
+    +450ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5b700
+    +437ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f506a0
+    +404ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc4a20
+    +393ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc4c60
+    +390ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ef57c0
+    +383ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf98d8
+    +375ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cea000
+    +365ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ae21d0
+    +360ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6cd70
+    +352ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bba868
+    +348ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e52788
+    +342ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de7928
+    +340ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c67548
+    +334ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41eecd18
+    +327ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bec690
+    +304ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd4c98
+    +303ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b2cbc8
+    +297ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de1038
+    +296ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd9ba8
+    +294ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4215a730
+    +275ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bac768
+    +265ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba14f0
+    +249ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420f8958
+    +245ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6ba40
+    +242ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c83c60
+    +223ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a1f148
+    +221ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42002200
+    +220ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fdc728
+    +217ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c98a60
+    +216ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c4c8a0
+    +215ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df54e0
+    +212ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f2b410
+    +211ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb4448
+    +211ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc62f8
+    +211ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9e800
+    +208ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f5dd38
+    +208ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc1ee0
+    +207ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420bc670
+    +206ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd72f8
+    +204ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb1e10
+    +202ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420c95d8
+    +199ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2d590
+    +195ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c71518
+    +195ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c4cfb8
+    +193ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bda668
+    +190ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42097a90
+    +190ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df3b68
+    +187ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f4f1a0
+    +185ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c91430
+    +180ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f520c0
+    +180ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba8b38
+    +179ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cd1fc0
+    +178ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca40d8
+    +176ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c59038
+    +174ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cce030
+    +173ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420ccdf8
+    +173ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fee9e0
+    +173ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d7d028
+    +171ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6d290
+    +169ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd3818
+    +169ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f1a108
+    +166ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bad6c8
+    +166ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba9250
+    +166ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc4a28
+    +166ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d29a98
+    +165ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba1e68
+    +165ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd34a0
+    +164ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ed21f0
+    +164ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41daa038
+    +164ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d85650
+    +161ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41daa310
+    +161ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e08768
+    +159ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d16f40
+    +159ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bbaed0
+    +159ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a7e8a8
+    +159ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cd6d98
+    +157ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de2a38
+    +156ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d13d18
+    +156ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c91f58
+    +156ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc5180
+    +154ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4204b1d0
+    +154ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd4ed8
+    +153ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42040360
+    +152ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7af28
+    +151ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fc3c38
+    +149ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c70b88
+    +148ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ccc510
+    +147ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41caaac8
+    +145ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e6f880
+    +144ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c76478
+    +142ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41badf28
+    +141ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b04168
+    +141ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cfde70
+    +139ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c82bf0
+    +137ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b508e8
+    +136ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b0a770
+    +135ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b55978
+    +135ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baf3a0
+    +133ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcaac8
+    +133ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7f510
+    +133ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f659e0
+    +133ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be4860
+    +132ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcbf10
+    +132ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f32e18
+    +132ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42069c90
+    +130ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd3690
+    +130ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcfb90
+    +130ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c75ef0
+    +129ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e13f60
+    +128ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb0420
+    +128ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db80b8
+    +128ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbafd0
+    +128ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b983c0
+    +127ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c89e60
+    +127ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a29810
+    +127ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d74878
+    +125ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba3110
+    +124ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0f008
+    +123ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba0360
+    +122ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c33190
+    +121ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c8ef60
+    +121ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cdcb60
+    +120ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f2b930
+    +120ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baf498
+    +119ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41caac00
+    +119ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb3820
+    +119ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf64d8
+    +118ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fae358
+    +118ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb0b68
+    +118ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bab050
+    +118ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcecd8
+    +118ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b848a0
+    +118ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c915a8
+    +118ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b26258
+    +117ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c82f90
+    +116ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c8b588
+    +116ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e32790
+    +115ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b61780
+    +115ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c4f090
+    +114ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce6190
+    +113ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d15628
+    +113ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4200ba60
+    +113ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9a078
+    +112ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42120400
+    +112ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba76c8
+    +112ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4210b8f8
+    +110ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba76a8
+    +109ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd74f0
+    +109ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bac100
+    +108ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca1a38
+    +107ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd33b8
+    +107ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5cb78
+    +107ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be8dc8
+    +106ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d8faa0
+    +106ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b617e0
+    +105ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dbf6c0
+    +105ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd1040
+    +105ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d37540
+    +104ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7dab8
+    +104ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d1fe58
+    +103ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9f810
+    +103ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c589d0
+    +102ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de7408
+    +102ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cad0b0
+    +101ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cab120
+    +101ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41defe50
+    +101ms 2 wakes 2 alarms: act=com.ubikod.capptain.b$1@41ac8f40
+    +101ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc1538
+    +100ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b50280
+    +100ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42097fb0
+    +100ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca5618
+    +100ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb1188
+    +100ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dfb280
+    +100ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb57e8
+    +99ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bbbe00
+    +99ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b4d5c0
+    +99ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d85938
+    +99ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d2d2b0
+    +99ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e0b8e0
+    +98ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baca10
+    +98ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e036e0
+    +97ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba8910
+    +96ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ddb708
+    +96ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c4cf88
+    +96ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb1648
+    +96ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c97848
+    +95ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df9e08
+    +95ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdf780
+    +95ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c76410
+    +95ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc3890
+    +95ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ef64d8
+    +95ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd6d80
+    +94ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cfe410
+    +93ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f52a78
+    +93ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf3548
+    +93ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b3c678
+    +93ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9f1a8
+    +92ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bac590
+    +92ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f2f720
+    +91ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb0658
+    +91ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df7c18
+    +91ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bbc290
+    +91ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c8d330
+    +91ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd0428
+    +90ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d87be8
+    +90ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca6760
+    +90ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9d1a8
+    +90ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc1480
+    +89ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4218e580
+    +89ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c819c0
+    +88ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb46b0
+    +88ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e6fe20
+    +88ms 2 wakes 2 alarms: act=com.ubikod.capptain.b$1@41dbacd0
+    +87ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dfc2f0
+    +87ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c80000
+    +86ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df2db0
+    +86ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be7f28
+    +86ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dac1c8
+    +86ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcf520
+    +86ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5b098
+    +85ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dbb1f0
+    +85ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba9328
+    +85ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd51c8
+    +84ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd9410
+    +84ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de1418
+    +84ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c72770
+    +84ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca6150
+    +84ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdd7a0
+    +83ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9d088
+    +83ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c90240
+    +83ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb3538
+    +83ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d491b0
+    +82ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba6780
+    +82ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41def020
+    +82ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420dc420
+    +82ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d96b28
+    +82ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bce3f0
+    +82ms 2 wakes 2 alarms: act=com.ubikod.capptain.b$1@41bd6d10
+    +82ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f97bb0
+    +81ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba95c8
+    +81ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c97d68
+    +81ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c999e0
+    +81ms 2 wakes 2 alarms: act=com.ubikod.capptain.b$1@41e31778
+    +81ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c94420
+    +81ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d294f8
+    +80ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9d6f0
+    +80ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba8f38
+    +80ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de8da8
+    +80ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c76a78
+    +80ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df66e0
+    +80ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f2fc40
+    +80ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cdae58
+    +80ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d95300
+    +80ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cd7298
+    +80ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bad798
+    +79ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b54400
+    +79ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7b490
+    +79ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a51a10
+    +79ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6df30
+    +79ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf3028
+    +79ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c70e10
+    +79ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f1d8d8
+    +79ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e4c840
+    +79ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de0168
+    +79ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d84ee8
+    +78ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb4200
+    +78ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e94a68
+    +78ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5a4d8
+    +78ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb22d0
+    +78ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df3648
+    +77ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cdb848
+    +77ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b3c220
+    +77ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ffe240
+    +76ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bacc78
+    +76ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df5a00
+    +76ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d85ed8
+    +76ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e093e8
+    +76ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c4ea28
+    +76ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b559d0
+    +76ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db3f28
+    +75ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dda450
+    +75ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420f8438
+    +75ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5ab40
+    +75ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca45f8
+    +75ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f65440
+    +75ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41edc020
+    +75ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e32338
+    +75ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c81208
+    +74ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba5928
+    +74ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb4a58
+    +74ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc6b70
+    +74ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce4938
+    +74ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fc3698
+    +74ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4206a1f8
+    +74ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f88c20
+    +73ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce12a0
+    +73ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b5ddd0
+    +73ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d90af0
+    +73ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e924d8
+    +73ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7af98
+    +73ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2ba40
+    +73ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9f908
+    +73ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b56038
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c55c58
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9c8f8
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ad2070
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f457d0
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fa9b18
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ee8738
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd2d50
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca6830
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c65108
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42143268
+    +72ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de8888
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e92450
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc55e0
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc1ab8
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bce868
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41babcf0
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bac8d8
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d03030
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c814d8
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9da18
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f9bfe8
+    +71ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bafdb8
+    +70ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b44068
+    +70ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2b608
+    +70ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a65370
+    +70ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420bcc10
+    +70ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e34190
+    +70ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7cbb8
+    +70ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc9020
+    +70ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420beba8
+    +70ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cef3a8
+    +70ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d66730
+    +69ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d905d0
+    +69ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d6bf58
+    +69ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cfca50
+    +69ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d7cb08
+    +69ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bac510
+    +69ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb1d78
+    +69ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e91fb8
+    +69ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca0e48
+    +69ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d259a0
+    +68ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ea6c10
+    +68ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baa918
+    +68ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a5c038
+    +68ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@419f7f00
+    +67ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f2ab20
+    +67ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d97cf0
+    +67ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9be58
+    +67ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d18720
+    +66ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdb980
+    +66ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e40148
+    +66ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a89b30
+    +66ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d41788
+    +66ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0cde0
+    +66ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca5280
+    +66ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fed750
+    +66ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bae590
+    +66ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd2e38
+    +65ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420ee0d8
+    +65ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e59a10
+    +65ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cadab8
+    +65ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fc3758
+    +65ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4215a210
+    +65ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fc3d68
+    +65ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0e130
+    +65ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cff378
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de08f0
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c70ff8
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc2020
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ade638
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7d060
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6fcc0
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d2d850
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ed2660
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc9b80
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cabee8
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de7050
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c72880
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d45dd8
+    +64ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d035d0
+    +63ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b652d8
+    +63ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb5888
+    +63ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41eac8a8
+    +63ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb0780
+    +63ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c80f70
+    +63ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420983f8
+    +63ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc4f40
+    +63ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc48e0
+    +62ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e09988
+    +62ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41badfe0
+    +62ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9eb58
+    +62ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f2b0c0
+    +62ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c82d98
+    +62ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db32c0
+    +62ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd5e20
+    +62ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6f480
+    +62ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d8b020
+    +62ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6e470
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba24d0
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420406f8
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c70e00
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ccc418
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb3840
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c81318
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb0da0
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db8ba0
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbcc40
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c76a80
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb3ce0
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca23b8
+    +61ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d5bc20
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420c9038
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbe488
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d8f788
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7c0f0
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42151ce0
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bbc468
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce5d80
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e0be00
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d03920
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc20f8
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b6b650
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc8b00
+    +60ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd2e80
+    +59ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e12b08
+    +59ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba7c18
+    +59ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e8b1e0
+    +59ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc7090
+    +59ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ced390
+    +59ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c79230
+    +59ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba88d0
+    +59ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba71f0
+    +59ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc5bf0
+    +58ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a4d888
+    +58ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c55cb8
+    +58ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41eb3008
+    +58ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@419fd078
+    +58ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cece70
+    +58ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4200b540
+    +58ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c50118
+    +58ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e031c0
+    +58ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a46310
+    +58ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d035f8
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fedc70
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fa9d88
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb2368
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b65a20
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dfd0c0
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c93f00
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbaab0
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cdf560
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf5058
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bc7f68
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c83418
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d5b700
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c77ae8
+    +57ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4209bca8
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41da9d20
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6b520
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c53a58
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d091f0
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fe3320
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e1ad78
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42167a08
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c84e50
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b57720
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e442b0
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca28d8
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41feef00
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f4f598
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ccda20
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d7aca8
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d8e9f8
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cdb0b0
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c8f570
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb8a08
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c814a0
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bbc8f8
+    +56ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ccbf00
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd0690
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f8cb78
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e86cf0
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c681f0
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c92480
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f47010
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f67ad8
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be6e68
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5af00
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca77e0
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be8590
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f4f740
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bab968
+    +55ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4200e2b8
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf6a78
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a68688
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b627c8
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca57a0
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be5800
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd9d78
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd40f8
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be81f8
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb1710
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd9710
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd08d0
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cfaca8
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df2690
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c71e68
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba7d38
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba2bd8
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e19a98
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c4c950
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b54110
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca2f00
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dfbf18
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd7818
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c91ee0
+    +54ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b1f288
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce1200
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d7cc20
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9dfe0
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d13b30
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f89140
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a45fb8
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6fa80
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420009e8
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce59a8
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b2d028
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb9fc8
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d4c6f0
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d197d8
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b4a768
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c93188
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c4c920
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6ea18
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c976c0
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f45528
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bc60f0
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42097208
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcfae0
+    +53ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b0add8
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f8fc10
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d4cb78
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e14860
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce5620
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baee30
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41da53c0
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e3bd60
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e59470
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca5008
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcbaa0
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd4870
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a4b670
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e5dd50
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb0500
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cda588
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba9c30
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e61190
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f1d8b0
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db9c80
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c90e20
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9f1c0
+    +52ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c4f290
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca5e80
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d19df8
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e7ab10
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c83110
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4212cee0
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cde6a8
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e125c0
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baa788
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d95730
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9ce40
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb13b0
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e0b020
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c82878
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be6e08
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dce580
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6d198
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc2540
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9c6b8
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c71320
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb3300
+    +51ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e06de8
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cae0c8
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c76558
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d624e0
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ee1360
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc7190
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b46a50
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bced10
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd5900
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b40ac8
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb0390
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dccb40
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41af19f0
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41eaac48
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42198df0
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ccc3e0
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df3520
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db9890
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb7128
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc6310
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41daf090
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce3920
+    +50ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f22ce0
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b560c8
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c72fc8
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ef7fb0
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d13d98
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb0260
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f18a78
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9ad18
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e39aa8
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d8d7e0
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a0f928
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4200e1d0
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbdf68
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7a828
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d16070
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dbd9e8
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4203f798
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db2e58
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc2618
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbd250
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cfb848
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cd72b8
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a53980
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de3370
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41edbb00
+    +49ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f5e2d8
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0b1c0
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cac408
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bafff0
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6e570
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ec2570
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc32b0
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f8c5d8
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f16ce0
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d39d48
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c80610
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d41fa8
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e43d10
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df14f0
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ee8c58
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ee1b08
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba3930
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fe2380
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9d508
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42014960
+    +48ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c98de8
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f43358
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdc078
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2b0e8
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41faffd0
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9c378
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41da8290
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d7a788
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcff08
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce5c30
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b55310
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df99e8
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d94a58
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4204b6f0
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a52f00
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d92eb8
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7d888
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d18570
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cab030
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc4930
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41eb8308
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dadb08
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b987a0
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba8cc0
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c714d8
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e4cde0
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420ae7a0
+    +47ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b94898
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41def930
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b61118
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba8be8
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f1ddf8
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cdb6c0
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c91a38
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9f3e8
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd9c70
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dcf398
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f66588
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c79ee0
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d8e4d8
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cfdf38
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d8fd28
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f57eb8
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cda938
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dba688
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420be608
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f08da0
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca8fc0
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5d480
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c76998
+    +46ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420dbf00
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dcfdf0
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df32d0
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cdd080
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9daa8
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e3a1b0
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dce060
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b5d768
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ed4dd0
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d3a278
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e37328
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b2c738
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0d380
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd26f8
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c80d08
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420665c8
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c81728
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d25400
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f981c0
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc3938
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9e4d8
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f92e38
+    +45ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a984d8
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb5a40
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e806b8
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf5578
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d94de0
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f9bac8
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf9338
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e139f8
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0bf80
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41faa0b8
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a186f8
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dcf850
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bbb4e0
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e31d18
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc8300
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb1c58
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd9968
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c71330
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e09bd0
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41eec7f8
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d4cc90
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7eff0
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d90040
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5c510
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f86fd8
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dca068
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e65488
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ea66f0
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c8cdd8
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@419f96a8
+    +44ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd3e80
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dda248
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e47900
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4210cc60
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bab6b8
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9e940
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db9760
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e08248
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f19ea8
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce8e38
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e65a28
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb2c68
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bba508
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c734e8
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b1f7c8
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc6830
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cafd80
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc20d8
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db2848
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fa9868
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d16260
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e14340
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f93358
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f1d390
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@421517c0
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420a78a8
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb2888
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdb948
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42002720
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca63a0
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb3230
+    +43ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c8baa8
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d88108
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e47360
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c82058
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6e9d0
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cda068
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b64590
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ac9038
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd4068
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc1578
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c55650
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db3cd8
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdfde8
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba8f78
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2fed0
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baa288
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7b4b8
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a51538
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42098998
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7cb40
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a49150
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dabca8
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce17c0
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de0ef8
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cacc38
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c775c8
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba01e0
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420ac228
+    +42ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7f360
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d78f80
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d3a2e8
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b45658
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ea33c0
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db2588
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f1a3c8
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c59cc0
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9eb40
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d92978
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dfa328
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce3400
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b4e5f8
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f043d0
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e3b7a0
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a63228
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d98210
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a52e08
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d99378
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6e050
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dad568
+    +41ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c32b80
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420aecc0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e3a048
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c4c238
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d58770
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baa8f0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cad6c0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc3108
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc2be8
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c79750
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f048f0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7edf8
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d979e0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e5d7b0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb9ae0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b57d88
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9cc98
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb11a8
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db9628
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e31028
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c73c10
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba7740
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c72250
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba3240
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e47d70
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2ada0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f23200
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba7168
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41da9df0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e16ba8
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ceb548
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4202afe0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5c9e8
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cd7fc0
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c8a970
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c71948
+    +40ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cabc80
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42065348
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba2aa8
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42011758
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca72c0
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf4400
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce4418
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca29e0
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d203f8
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0c520
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ef4958
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e185d0
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6ef60
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b20b18
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f52660
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2a060
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce6730
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e1e0b0
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce6390
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f846c0
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de7440
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e068c8
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d33058
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd0f38
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4212c9c0
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbbe50
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d95cd0
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fe28a0
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cd6cf8
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb8bb8
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc26b8
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e52d28
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@419f9ff8
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbbed0
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc4318
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca1428
+    +39ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e72228
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb2748
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9fad0
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7a1e0
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c971a0
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dfac70
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41da87b0
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2cff0
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6f560
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e727c8
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ddbd18
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de2e50
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c89940
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb1c68
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f901b0
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7a3c8
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c87c60
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a06550
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c799c0
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba7da8
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bec028
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd0570
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c84930
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcecf0
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd9598
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de1558
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9c3d8
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cde188
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd2e70
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9b380
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf91b0
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7d0d8
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba8748
+    +38ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d4c5d8
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bce200
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42189c28
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d15cc0
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b40c40
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d66178
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9d360
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b4dc28
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbb840
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb6c08
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6cc78
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b54a68
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db3a08
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f167c0
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d13778
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d9ed20
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df3a40
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5fd80
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d404d0
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42014080
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ed47c0
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd66a8
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba0648
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c72958
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42142c58
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6f7a0
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e3fba8
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7bbd0
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ebdf08
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a96690
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd34e8
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ec2050
+    +37ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e615c0
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dbd4c8
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42149310
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb4c50
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41eab1e8
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dcc530
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@421c24a0
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c90380
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2a880
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c7d368
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be18f0
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2b520
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a333c0
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ccf558
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b25a88
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e7a5f0
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dfcb80
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b6b810
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e3efb8
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b91780
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd29d0
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ee15e8
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4200daf8
+    +36ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbb8c0
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb17f0
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd3038
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de2440
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd8ef0
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c72da0
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd18a8
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e0ab00
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41da9b18
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd54c8
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca4138
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba7060
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de7570
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41babf48
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d8ab00
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cca940
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be3918
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf9750
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bac358
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4210b3d8
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c87740
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bacb08
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b25120
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d14338
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ce1720
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de0708
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcea58
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c79db8
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ea2e20
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ef9298
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d174e0
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c75898
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db38b0
+    +35ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41faf758
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b332a0
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc1bb8
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ccfb68
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c29580
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd55f8
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc19a0
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ff75a8
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf5378
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fbb128
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e3b840
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@421988d0
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cad6b8
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc9660
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca89b0
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d84948
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a36cc0
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba91a0
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf7960
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bce670
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e4c2b8
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e19a80
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c70f48
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e929f0
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdc6e0
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df3b58
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba83a0
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c91ac8
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca8bb0
+    +34ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420e3cc8
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42014440
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ffe850
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c64be8
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42031448
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba6118
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a70c60
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdde08
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c8af80
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f98b68
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e3bd40
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd21d8
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cadcc8
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a5d9e8
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41af2fd8
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0f5a8
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d963a0
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2a600
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e8a3f8
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@4214cc18
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca4658
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e87290
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b56730
+    +33ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9da28
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41fdccc8
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ef4438
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bc6758
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df6c48
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c81670
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd7b58
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a2aa18
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba75b0
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a59740
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bacb78
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c50780
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a4fe60
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba0c18
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41badd30
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd32c0
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f45d70
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cd8560
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d62a80
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41daa240
+    +32ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d49750
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b87528
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba6320
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@419efb18
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a258b0
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cb40a0
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cea520
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d1a398
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5d8b0
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd6320
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ebe448
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb60a8
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42056408
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d3a818
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baed38
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cfcff0
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd4760
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cdfb00
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bacbf8
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d09790
+    +31ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b4ec60
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be3f80
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de02e0
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b4ad08
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb7148
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42189708
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9fcf8
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d18cc0
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d29090
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e315c8
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd7670
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb5ef0
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd9f08
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baa000
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd5f80
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdacd0
+    +30ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f46af0
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c6eef0
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0ff48
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cbf9f0
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bdbfb0
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f67640
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f04980
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e2ad58
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba7d10
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f67598
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c60708
+    +29ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb1810
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b9d810
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f87578
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cc76b0
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bbbb48
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db3c38
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41deeb00
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cdea70
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420a7e48
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bad170
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dfc4b8
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ae36e8
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d16610
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd0a90
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca6b20
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dc8000
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd2170
+    +28ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cff918
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e80c58
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bae310
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c5cf60
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42168018
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d00a68
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d94f78
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b54778
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd2fc8
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0e6d0
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db85f8
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f1a6a8
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df81b8
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba3f98
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b2bf20
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd4f90
+    +27ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@421a05e8
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de7960
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d03b98
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420e4268
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42138aa0
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c534a0
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c4f8f8
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb2478
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d18b10
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b0d760
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be74d0
+    +26ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cfb248
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e21e70
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cfe4d8
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41a33e20
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd3cf8
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d0b760
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d27998
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d58d10
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c723b8
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d37ae0
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c56338
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cdf010
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf5918
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bad078
+    +25ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca6708
+    +24ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d6c4f8
+    +24ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cef948
+    +24ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e312a0
+    +24ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41aff3f8
+    +24ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b410d8
+    +24ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41df5f18
+    +24ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ff1e08
+    +24ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd7320
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ff7b48
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f53018
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420569a8
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b66950
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de1f00
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bad2e0
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b0d0f8
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e378c8
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41badca8
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd8be8
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd3180
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcfb88
+    +23ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d46378
+    +22ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b6b0d8
+    +22ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d03ec0
+    +22ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcf358
+    +22ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42040900
+    +22ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba0848
+    +22ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b32d60
+    +22ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420a0480
+    +22ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bac5b0
+    +22ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db36f8
+    +22ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d66cd0
+    +21ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e30d00
+    +21ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c564e8
+    +21ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcc4e8
+    +21ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41dd9128
+    +21ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41db8600
+    +21ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bd1f10
+    +21ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42026d28
+    +21ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d004c8
+    +21ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420e02e8
+    +20ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba8db0
+    +20ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb0f20
+    +20ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41b222b8
+    +20ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41f4f058
+    +20ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ca65e0
+    +19ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41de4290
+    +18ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c825c0
+    +18ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42138500
+    +18ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb08b8
+    +18ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ba9988
+    +18ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@420cc8b8
+    +17ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41baaf80
+    +17ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41cf2628
+    +17ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41be9368
+    +17ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e1e650
+    +17ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41d66718
+    +16ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e34730
+    +16ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@42121720
+    +16ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bb77b0
+    +16ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41ae3a20
+    +15ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41bcf378
+    +15ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41efb868
+    +4ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e42140
+    +3ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41da2d48
+    +2ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41c9f858
+    +1ms 1 wakes 1 alarms: act=com.ubikod.capptain.b$1@41e35498
+  com.android.contacts +7s431ms running, 59 wakeups:
+    +7s431ms 59 wakes 59 alarms: act=com.yulong.contacts.ACTION_FORCE_LOAD_SIM_CONTACTS
+  com.facebook.lite +4m50s2ms running, 1150 wakeups:
+    +4m43s568ms 1066 wakes 1066 alarms: act=com.facebook.rti.b.c.b.ACTION_INEXACT_ALARM.
+    +6s490ms 84 wakes 84 alarms: act=com.facebook.rti.b.a.c.t.ACTION_ALARM.
+  com.android.phone +23m49s850ms running, 18534 wakeups:
+    +19m30s869ms 12259 wakes 65648 alarms: act=com.android.yulong.fastdormancy.data_traffic_poll
+    +3m21s3ms 1001 wakes 1001 alarms: act=com.android.internal.telephony.data-stall
+    +45s808ms 5255 wakes 5255 alarms: act=com.android.yulong.fastdormancy.phsy_link_poll
+    +11s438ms 9 wakes 9 alarms: act=com.android.internal.telephony.data-reconnect.default
+    +2s483ms 0 wakes 13 alarms: act=com.android.phone.UPDATE_CALLER_INFO_CACHE cmp={com.android.phone/com.android.phone.CallerInfoCacheUpdateReceiver}
+    +1s120ms 1 wakes 1 alarms: act=com.android.internal.telephony.data-reconnect.hipri
+    +285ms 5 wakes 5 alarms: act=com.android.internal.telephony.dataconnection.DataConnection.DC-1.action_retry
+    +125ms 2 wakes 2 alarms: act=com.android.internal.telephony.SMSDispatcher.DISPATCH_TIMOUEOUT1
+    +43ms 1 wakes 1 alarms: act=com.android.internal.telephony.SMSDispatcher.START_UP_CHECK_MULTIPART_SMS_TIMEOUT2
+    +9ms 1 wakes 1 alarms: act=com.android.internal.telephony.SMSDispatcher.START_UP_CHECK_MULTIPART_SMS_TIMEOUT1
+  com.google.android.apps.plus +4s493ms running, 8 wakeups:
+    +4s455ms 5 wakes 5 alarms: act=com.google.android.apps.plus.checkandengagesync
+    +38ms 3 wakes 3 alarms: cmp={com.google.android.apps.plus/com.google.android.libraries.social.mediamonitor.MediaMonitorIntentService}
+  com.vodafone.signature.timeandweather +34m47s260ms running, 112 wakeups:
+    +30m13s678ms 0 wakes 6736 alarms: act=android.appwidget.action.APPWIDGET_UPDATE cmp={com.vodafone.signature.timeandweather/com.vodafone.signature.timeandweather.appwidgetprovider.SignatureAppWidgetProvider}
+    +3m37s908ms 0 wakes 1237 alarms: act=com.vodafone.signature.timeandweather.action.ACTION_ANIMATION_START cmp={com.vodafone.signature.timeandweather/com.vodafone.signature.timeandweather.appwidgetprovider.SignatureAppWidgetProvider}
+    +60s258ms 0 wakes 413 alarms: act=com.vodafone.signature.timeandweather.action.ACTION_ANIMATION_END cmp={com.vodafone.signature.timeandweather/com.vodafone.signature.timeandweather.appwidgetprovider.SignatureAppWidgetProvider}
+    +1s940ms 112 wakes 112 alarms: cmp={com.vodafone.signature.timeandweather/com.vodafone.signature.timeandweather.services.WeatherIntentService}
+  com.google.android.googlequicksearchbox +34s830ms running, 46 wakeups:
+    +29s8ms 0 wakes 15 alarms: act=android.appwidget.action.APPWIDGET_UPDATE cmp={com.google.android.googlequicksearchbox/com.google.android.apps.sidekick.widget.PredictiveCardsWidgetProvider}
+    +4s923ms 15 wakes 15 alarms: act=com.google.android.sidekick.shared.a.a.UPDATE_CALENDAR_ACTION cmp={com.google.android.googlequicksearchbox/com.google.android.sidekick.main.calendar.CalendarIntentService$CalendarReceiver}
+    +453ms 15 wakes 15 alarms: cmp={com.google.android.googlequicksearchbox/com.google.android.sidekick.main.TrafficIntentService}
+    +240ms 9 wakes 9 alarms: cmp={com.google.android.googlequicksearchbox/com.google.android.velvet.VelvetBackgroundTasksImpl$Service}
+    +144ms 7 wakes 7 alarms: act=com.google.android.apps.sidekick.SCHEDULED_REFRESH cmp={com.google.android.googlequicksearchbox/com.google.android.sidekick.main.entry.EntriesRefreshIntentService}
+    +35ms 0 wakes 5 alarms: act=send_events cmp={com.google.android.googlequicksearchbox/com.google.android.voicesearch.logger.EventLoggerService}
+    +27ms 0 wakes 2 alarms: act=ACTION_MAYBE_UPDATE_CONTACTS cmp={com.google.android.googlequicksearchbox/com.google.android.search.core.icingsync.UpdateIcingCorporaService}
+  com.android.vending +3m11s138ms running, 809 wakeups:
+    +3m0s742ms 268 wakes 268 alarms: cmp={com.android.vending/com.google.android.finsky.receivers.FlushLogsReceiver}
+    +6s906ms 278 wakes 278 alarms: cmp={com.android.vending/com.google.android.finsky.services.DailyHygiene}
+    +3s534ms 263 wakes 263 alarms: cmp={com.android.vending/com.google.android.finsky.services.ContentSyncService}
+  com.android.providers.calendar +15s880ms running, 12 wakeups:
+    +15s704ms 8 wakes 8 alarms: act=com.android.providers.calendar.intent.CalendarProvider2
+    +176ms 4 wakes 4 alarms: act=com.android.providers.calendar.SCHEDULE_ALARM cmp={com.android.providers.calendar/com.android.providers.calendar.CalendarReceiver}
+  com.sbg.mobile.phone +2m25s673ms running, 0 wakeups:
+    +2m25s673ms 0 wakes 396 alarms: act=com.sbg.mobile.phone.session_check
+  com.google.android.inputmethod.latin +46s347ms running, 0 wakeups:
+    +46s300ms 0 wakes 110 alarms: act=com.android.inputmethod.latin.personalization.DICT_DECAY cmp={com.google.android.inputmethod.latin/com.android.inputmethod.latin.personalization.DictionaryDecayBroadcastReciever}
+    +47ms 0 wakes 1 alarms: act=com.google.android.inputmethod.dictionarypack.UPDATE_NOW
+  com.android.calendar +2s648ms running, 0 wakeups:
+    +2s648ms 0 wakes 4 alarms: act=com.android.calendar.APPWIDGET_SCHEDULED_UPDATE
+  com.estrongs.android.pop +1s188ms running, 5 wakeups:
+    +1s188ms 5 wakes 5 alarms: act=com.estrongs.action.PERFNOTIFY cmp={com.estrongs.android.pop/com.estrongs.android.pop.app.StartServiceReceiver}
+  com.google.android.talk +40s901ms running, 0 wakeups:
+    +26s248ms 0 wakes 53 alarms: act=com.google.android.apps.hangouts.CLEANUP_DB
+    +12s343ms 0 wakes 2 alarms: act=com.google.android.apps.hangouts.RENEW_ACCOUNT_REGISTRATION
+    +2s303ms 0 wakes 7 alarms: act=com.google.android.apps.hangouts.UPDATE_IN_CALL_STATE
+    +7ms 0 wakes 1 alarms: act=com.google.android.apps.hangouts.SYNC
+  com.dictionary +231ms running, 0 wakeups:
+    +231ms 0 wakes 18 alarms: act=com.urbanairship.analytics.SEND cmp={com.dictionary/com.urbanairship.analytics.EventService}
+  com.whatsapp +10m38s420ms running, 1675 wakeups:
+    +5m9s726ms 1048 wakes 1048 alarms: act=com.whatsapp.messaging.MessageService.CLIENT_PINGER_ACTION
+    +3m32s663ms 0 wakes 347 alarms: act=com.whatsapp.action.HOURLY_CRON cmp={com.whatsapp/com.whatsapp.AlarmBroadcastReceiver}
+    +3m0s756ms 0 wakes 246 alarms: act=com.whatsapp.action.UPDATE_NTP cmp={com.whatsapp/com.whatsapp.AlarmBroadcastReceiver}
+    +2m10s958ms 506 wakes 506 alarms: act=com.whatsapp.alarm.AVAILABLE_TIMEOUT
+    +36s656ms 101 wakes 101 alarms: act=com.whatsapp.messaging.MessageService.LOGOUT_ACTION
+    +3s368ms 4 wakes 4 alarms: act=com.whatsapp.action.DAILY_CRON cmp={com.whatsapp/com.whatsapp.AlarmBroadcastReceiver}
+    +1s174ms 5 wakes 5 alarms: act=com.whatsapp.action.BACKUP_MESSAGES cmp={com.whatsapp/com.whatsapp.AlarmBroadcastReceiver}
+    +69ms 5 wakes 5 alarms: act=com.whatsapp.alarm.CLIENT_PING_TIMEOUT
+    +60ms 6 wakes 6 alarms: act=com.whatsapp.MessageService.RECONNECT cmp={com.whatsapp/com.whatsapp.messaging.MessageService}
+  com.google.android.apps.maps +2s621ms running, 100 wakeups:
+    +2s621ms 100 wakes 100 alarms: cmp={com.google.android.apps.maps/com.google.android.apps.gmm.prefetch.PrefetcherService}
+  com.vodafone.vodafone360updates +110ms running, 2 wakeups:
+    +67ms 0 wakes 10 alarms: cmp={com.vodafone.vodafone360updates/com.vodafone.lib.sec.service.LoggerService}
+    +43ms 2 wakes 2 alarms: act=com.vodafone.vodafone360updates.intent.action.SERVICE cmp={com.vodafone.vodafone360updates/com.vodafone.vodafone360updates.agent.Agent}
+  com.android.deskclock +31s946ms running, 0 wakeups:
+    +31s946ms 0 wakes 344 alarms: act=com.android.deskclock.ON_QUARTER_HOUR
+  com.opera.mini.native +1m55s397ms running, 19 wakeups:
+    +1m55s11ms 0 wakes 3155 alarms: act=com.opera.mini.native.intent.APPBOY_DISPATCH_ALARM_EXPIRED
+    +386ms 19 wakes 19 alarms: act=com.opera.mini.native.intent.APPBOY_SESSION_SHOULD_SEAL
+  com.android.keyguard +1m1s805ms running, 133 wakeups:
+    +1m1s805ms 133 wakes 133 alarms: act=com.android.internal.policy.impl.PhoneWindowManager.DELAYED_KEYGUARD
+  com.twitter.android +1s99ms running, 0 wakeups:
+    +1s99ms 0 wakes 43 alarms: act=on_poll_alarm_ev cmp={com.twitter.android/com.twitter.library.platform.TwitterDataSyncService}
+  com.google.android.gms +14m46s540ms running, 0 wakeups:
+    +10m25s387ms 0 wakes 265 alarms: act=com.google.android.intent.action.GCM_RECONNECT
+    +1m27s160ms 0 wakes 39 alarms: act=ALARM_WAKEUP_ACTIVITY_DETECTION
+    +1m18s372ms 0 wakes 69 alarms: act=ALARM_WAKEUP_LOCATOR
+    +1m14s924ms 0 wakes 223 alarms: act=ALARM_WAKEUP62357699
+    +1m6s878ms 0 wakes 478 alarms: act=com.google.android.intent.action.MCS_HEARTBEAT
+    +55s672ms 0 wakes 6 alarms: act=com.google.android.gms.location.FUSION_ENGINE_STATUS_ALARM
+    +50s284ms 0 wakes 255 alarms: act=com.google.android.intent.action.SEND_IDLE
+    +43s465ms 0 wakes 218 alarms: cmp={com.google.android.gms/com.google.android.gms.checkin.EventLogService$Receiver}
+    +6s578ms 0 wakes 220 alarms: cmp={com.google.android.gms/com.google.android.gms.lockbox.LockboxAlarmReceiver}
+    +5s459ms 0 wakes 5 alarms: act=com.google.android.gms.common.receiver.LOG_CORE_ANALYTICS cmp={com.google.android.gms/com.google.android.gms.common.receiver.InternalBroadcastReceiver}
+    +4s863ms 0 wakes 4 alarms: cmp={com.google.android.gms/com.google.android.location.internal.AnalyticsSamplerReceiver}
+    +4s826ms 0 wakes 4 alarms: act=com.google.android.gms.reminders.REFRESH_NOTIFICATION cmp={com.google.android.gms/com.google.android.gms.reminders.notification.NotificationReceiver}
+    +3s401ms 0 wakes 385 alarms: cmp={com.google.android.gms/com.google.android.libraries.social.mediamonitor.MediaMonitorIntentService}
+    +1s520ms 0 wakes 4 alarms: act=com.google.android.gms.playlog.service.UPLOAD_DEFAULT cmp={com.google.android.gms/com.google.android.gms.playlog.service.MonitorAlarmReceiver}
+    +1s194ms 0 wakes 55 alarms: act=com.google.android.gms.fitness.aggregate cmp={com.google.android.gms/com.google.android.gms.fitness.store.maintenance.StoreMaintenanceService}
+    +852ms 0 wakes 34 alarms: act=com.google.android.gms.gcm.ACTION_CHECK_QUEUE
+    +750ms 0 wakes 4 alarms: act=com.google.android.gms.auth.authzen.CHECK_REGISTRATION
+    +341ms 0 wakes 9 alarms: cmp={com.google.android.gms/com.google.android.gms.common.download.DownloadAlarmReceiver}
+    +281ms 0 wakes 9 alarms: act=com.google.android.gms.fitness.trim cmp={com.google.android.gms/com.google.android.gms.fitness.store.maintenance.StoreMaintenanceService}
+    +253ms 0 wakes 1 alarms: cmp={com.google.android.gms/com.google.android.gms.checkin.CheckinService$Receiver}
+    +191ms 0 wakes 21 alarms: act=snet.service.intent.action.IDLE_MODE cmp={com.google.android.gms/com.google.android.gms.security.snet.SnetService}
+    +155ms 0 wakes 1 alarms: act=com.google.android.gms.recovery.WAKEUP
+    +96ms 0 wakes 5 alarms: act=com.google.android.gms.icing.INDEX_RECURRING_MAINTENANCE cmp={com.google.android.gms/com.google.android.gms.icing.service.IndexWorkerService}
+    +69ms 0 wakes 6 alarms: act=snet.service.intent.action.NORMAL_MODE cmp={com.google.android.gms/com.google.android.gms.security.snet.SnetService}
+    +30ms 0 wakes 1 alarms: act=com.google.android.libraries.social.autobackup.backupstalled cmp={com.google.android.gms/com.google.android.libraries.social.autobackup.AutoBackupStalledReceiver}
+    +27ms 0 wakes 2 alarms: cmp={com.google.android.gms/com.google.android.gms.analytics.internal.PlayLogReportingService}
+    +7ms 0 wakes 1 alarms: act=snet.service.intent.action.IDLE_MODE cmp={com.google.android.gms/com.google.android.gms.security.snet.WatchdogService}
+    +4ms 0 wakes 1 alarms: act=ALARM_WAKEUP_BURST_COLLECTOR
+  com.facebook.orca +11m52s567ms running, 1501 wakeups:
+    +9m55s702ms 797 wakes 797 alarms: act=com.facebook.push.mqtt.keepalive.b.ACTION_INEXACT_ALARM.com.facebook.orca
+    +1m54s174ms 384 wakes 384 alarms: act=com.facebook.analytics.service.a.ACTION_ALARM
+    +25s521ms 320 wakes 320 alarms: act=com.facebook.common.executors.cr.ACTION_ALARM.com.facebook.orca
+    +427ms 0 wakes 38 alarms: act=com.facebook.orca.database.ACTION_ALARM cmp={com.facebook.orca/com.facebook.contacts.database.AddressBookPeriodicRunner$LocalBroadcastReceiver}

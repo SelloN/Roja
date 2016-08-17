@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.natech.roja.Information.SuggestionActivity">
+
+    <include
+        android:id="@+id/toolbar_actionbar"
+        layout="@layout/toolbar_default_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/toolbar_actionbar">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:id="@+id/suggestRestaurantNameTV"
+                android:visibility="gone"
+                android:hint="@string/restaurant_name"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"
+                android:visibility="gone"
+                android:id="@+id/suggestCityTV"
+                android:hint="@string/city_hint"
+                android:layout_below="@id/suggestRestaurantNameTV"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_margin="15dp"
+                android:layout_height="150dp"
+                android:visibility="gone"
+                android:hint="@string/additional_info_hint"
+                android:id="@+id/suggestExtrasTV"
+                android:layout_below="@+id/suggestCityTV"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/submit"
+                android:visibility="gone"
+                android:textColor="@color/myPrimaryColor"
+                android:background="@drawable/button_selector2"
+                android:id="@+id/suggestBtn"
+                android:layout_below="@+id/suggestExtrasTV"
+                android:layout_centerHorizontal="true" />
+
+            </RelativeLayout>
+        </ScrollView>
+
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:id="@+id/snackbarPosition">
+    </android.support.design.widget.CoordinatorLayout>
+
+</RelativeLayout>

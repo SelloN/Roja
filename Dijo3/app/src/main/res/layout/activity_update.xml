@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/myPrimaryColor"
+    tools:context="com.natech.roja.UpdateActivity">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/roja_logo"
+        android:layout_above="@+id/updateText"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:id="@+id/imageView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:text="@string/update_app"
+        android:id="@+id/updateText"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/update_button"
+        android:id="@+id/updateBtn"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:background="@drawable/my_buttons"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/updateText"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

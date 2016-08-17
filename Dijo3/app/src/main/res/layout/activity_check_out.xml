@@ -1,0 +1,175 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.natech.CheckOut.CheckOutActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:layout_above="@+id/totalPriceLayout">
+
+        <include
+            android:id="@+id/toolbar_actionbar"
+            layout="@layout/toolbar_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.natech.roja.CheckOut.SlidingTabLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tabs"
+            android:background="@color/myPrimaryColor"/>
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/pager"
+            android:layout_height="fill_parent"
+            android:layout_width="fill_parent">
+
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:padding="5dp"
+        android:id="@+id/totalPriceLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+
+        android:background="@color/myPrimaryColor">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textSize="15sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/cartTotal"
+            android:text="@string/cart_total"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/total"
+            android:text="@string/total"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/actualTotal"
+            android:text="@string/actual_total"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+        <TextView
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/actualTotalTV"
+            android:text="@string/default_price"
+            android:layout_below="@+id/actualTotal"
+            android:layout_alignLeft="@+id/actualTotal"
+            android:layout_alignStart="@+id/actualTotal" />
+        <TextView
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/totalTV"
+            android:text="@string/default_price"
+            android:layout_below="@+id/total"
+            android:layout_alignLeft="@+id/total"
+            android:layout_alignStart="@+id/total"
+            />
+        <TextView
+            android:paddingBottom="5dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="#ffffffff"
+            android:id="@+id/cartTotalTV"
+            android:text="@string/default_price"
+            android:layout_below="@+id/cartTotal"
+            android:layout_alignLeft="@+id/cartTotal"
+            android:layout_alignStart="@+id/cartTotal" />
+
+    </RelativeLayout>
+<!--
+    <com.melnykov.fab.FloatingActionButton
+        android:id="@+id/checkoutfab"
+        android:layout_above = "@+id/totalPriceLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom|right"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_check_out3"
+        fab:fab_colorNormal="@color/myPrimaryColor" />
+-->
+
+    <com.getbase.floatingactionbutton.FloatingActionsMenu
+        android:id="@+id/floatMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above = "@+id/totalPriceLayout"
+        android:layout_alignParentRight="true"
+        android:layout_gravity="bottom"
+        fab:fab_addButtonColorNormal="@color/myAccentColor"
+        fab:fab_addButtonColorPressed="@color/white_pressed"
+        fab:fab_addButtonPlusIconColor="@color/white"
+        fab:fab_labelStyle="@style/menu_labels_style"
+        fab:fab_labelsPosition="left">
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cancelOrderFAB"
+            android:src = "@drawable/ic_clear_cart"
+            fab:fab_colorNormal="@color/myPrimaryColor"
+            fab:fab_title="Cancel Order"
+            fab:fab_size="mini"
+            android:visibility="gone"
+            fab:fab_colorPressed="@color/white_pressed"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/clearCartFAB"
+            android:src = "@drawable/ic_clear_cart"
+            fab:fab_colorNormal="@color/myPrimaryColor"
+            fab:fab_title="Clear Cart"
+            fab:fab_size="mini"
+            fab:fab_colorPressed="@color/white_pressed"/>
+
+        <com.getbase.floatingactionbutton.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/sendOrderFAB"
+            fab:fab_colorNormal="@color/myPrimaryColor"
+            android:src = "@drawable/ic_check_out3"
+            fab:fab_size="mini"
+            fab:fab_title="Send Order"
+            fab:fab_colorPressed="@color/white_pressed"/>
+
+    </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/snackbarPositionCart">
+    </android.support.design.widget.CoordinatorLayout>
+</RelativeLayout>

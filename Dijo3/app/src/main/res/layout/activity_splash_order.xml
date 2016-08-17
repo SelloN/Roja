@@ -1,0 +1,57 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background"
+    tools:context="com.natech.roja.CloudServices.SplashOrder">
+    <include
+        android:id="@+id/toolbar_actionbar2"
+        layout="@layout/transparent_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tableNo"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@+id/logID"
+        android:layout_marginBottom="3dp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/abc_dialog_padding_material"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/logID"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="3dp"
+        android:layout_above="@+id/whiteBox"
+        android:textSize="18sp"
+        android:textColor="@color/white"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/white_box"
+        android:id="@+id/whiteBox"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/message1"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/whiteBox"
+        android:text="@string/orderMessage1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/abc_dialog_padding_material"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/orderMessage2"
+        android:textColor="@color/white"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/message1"/>
+
+
+
+</RelativeLayout>

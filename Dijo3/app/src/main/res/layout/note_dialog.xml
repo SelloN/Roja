@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/waiter_note"
+        android:id="@+id/waiterNoteTV"
+        android:layout_centerHorizontal="true" />
+    <View
+        android:layout_width="match_parent"
+        android:background="@color/myPrimaryColor"
+        android:layout_height="1dp"
+        android:id="@+id/separator"
+        android:layout_below="@+id/waiterNoteTV"
+        android:layout_marginTop="5dp" />
+    <EditText
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="20dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/type_note_hint"
+        android:id="@+id/noteED"/>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/noteED"
+        android:layout_gravity="center"
+        android:weightSum="2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/cancel"
+            android:background="@drawable/cart_button_selector"
+            android:id="@+id/cancelNoteBtn"
+            android:textColor="@color/myPrimaryColor"
+            android:layout_weight="1"
+            android:layout_alignParentRight="true"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/save"
+            android:textColor="@color/myPrimaryColor"
+            android:background="@drawable/cart_button_selector"
+            android:layout_weight="1"
+            android:id="@+id/saveNoteBtn"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>

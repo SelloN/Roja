@@ -1,0 +1,413 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.natech.roja"
+    android:versionCode="20"
+    android:versionName="2.0.3" >
+
+    <uses-sdk
+        android:minSdkVersion="15"
+        android:targetSdkVersion="23" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <permission
+        android:name="com.example.gcm.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.example.gcm.permission.C2D_MESSAGE" />
+
+    <!--
+    <meta-data
+        android:name="com.google.android.geo.API_KEY"
+        android:value="AIzaSyAiPp52xWPGqeqQW0Oxi-SAaYoe8NKAtnA" />
+    <meta-data
+        android:name="com.google.android.gms.version"
+        android:value="@integer/google_play_services_version" />
+    <meta-data
+        android:name="com.google.android.maps.v2.API_KEY"
+        android:value="AIzaSyAiPp52xWPGqeqQW0Oxi-SAaYoe8NKAtnA" />
+    -->
+
+
+    <!--
+    <compatible-screens>
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="normal" />
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="normal" />
+
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="small" />
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="small" />
+
+        <screen
+            android:screenDensity="xhdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="mdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="hdpi"
+            android:screenSize="large" />
+        <screen
+            android:screenDensity="ldpi"
+            android:screenSize="large" />
+    </compatible-screens>
+    -->
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="false" />
+
+    <android:uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <android:uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+
+    <application
+        android:name=".Analytics"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher4"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id" />
+
+        <activity
+            android:name=".MainActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LogIn.EditProfileActivity"
+            android:label="@string/title_activity_edit_profile"
+            android:parentActivityName=".MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <!--
+        <activity
+            android:name=".MenuCategories.MainMenu"
+            android:label="@string/title_activity_main_menu"
+            android:parentActivityName=".ScanActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".ScanActivity" />
+        </activity>
+        -->
+        <activity
+            android:name=".CheckOut.CheckOutActivity"
+            android:label="@string/title_activity_check_out"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MenuCategories.MenuItemsListActivity"
+            android:label="@string/title_activity_menu_items_list"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MenuCategories.ItemDescriptionActivity"
+            android:label="@string/title_activity_item_description"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustResize|stateHidden" >
+        </activity>
+        <activity
+            android:name=".CheckOut.EditItemActivity"
+            android:label="@string/title_activity_edit_item"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LogIn.LogInActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LogIn.SignUpActivity"
+            android:label="@string/title_activity_sign_up"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <data
+                    android:host="@string/domain"
+                    android:path=""
+                    android:scheme="http" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".CloudServices.MyReceiver" >
+            <intent-filter>
+                <action android:name="natech.com.chatapp" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+
+                <category android:name="com.example.tshepo.dijo" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".NetworkServices.NetworkChangeReceiver"
+            android:label="NetworkChangeReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+                <action android:name="android.net.wifi.WIFI_STATE_CHANGED" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.analytics.AnalyticsReceiver"
+            android:enabled="true" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.analytics.ANALYTICS_DISPATCH" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.analytics.AnalyticsService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name=".CloudServices.GcmIntentService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name=".MenuCategories.MenuItemReviewsActivity"
+            android:label="@string/title_activity_menu_item_reviews"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Restaurants.HistoryActivity"
+            android:label="@string/title_activity_history"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Restaurants.RateRestaurantActivity"
+            android:label="@string/title_activity_rate_restaurant"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Restaurants.TrendsActivity"
+            android:label="@string/title_activity_trends"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Restaurants.TrendReviewsActivity"
+            android:label="@string/title_activity_trend_reviews"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Restaurants.AroundMeActivity"
+            android:label="@string/title_activity_around_me"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.app.default_searchable"
+                android:value=".SearchableActivity" />
+        </activity>
+        <activity
+            android:name=".Restaurants.RestaurantAroundMeActivity"
+            android:label="@string/title_activity_restaurant_around_me"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".OffsiteOrders.OffSiteMenuActivity"
+            android:label="@string/title_activity_off_site_menu"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".SearchableActivity"
+            android:label="@string/title_activity_searchable"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name=".Information.InformationActivity"
+            android:label="@string/title_activity_information"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Information.AboutActivity"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Information.FeedBackActivity"
+            android:label="@string/title_activity_feed_back"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Information.SuggestionActivity"
+            android:label="@string/title_activity_suggestion"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HomeContent.RestaurantWeekActivity"
+            android:label="@string/title_activity_restaurant_week"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".HomeContent.WebViewActivity"
+            android:label="@string/title_activity_web_view"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver
+            android:name=".Notifications.ReviewReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.natech.dijo.MyReceiver" />
+            </intent-filter>
+        </receiver>
+
+        <service
+            android:name=".Notifications.ReviewService"
+            android:enabled="true"
+            android:exported="false" >
+        </service>
+
+        <activity
+            android:name=".Information.NotificationsActivity"
+            android:label="@string/title_activity_notifications"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".LogIn.ForgotPasswordActivity"
+            android:label="@string/title_activity_forgot_password"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <receiver
+            android:name=".Notifications.BootReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".MenuCategories.NestedCategory"
+            android:label="@string/title_activity_nested_category"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Information.PointsActivity"
+            android:label="@string/title_activity_points"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Information.ClaimsActivity"
+            android:label="@string/title_activity_claims"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".CloudServices.SplashOrder"
+            android:screenOrientation="portrait"
+            android:theme="@style/TranslucentGreen" >
+        </activity>
+        <activity
+            android:name=".HomeContent.PromoSplashActivity"
+            android:label="@string/title_activity_promo_splash"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".UpdateActivity"
+            android:label="@string/title_activity_update"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".Restaurants.FavouriteActivity"
+            android:label="@string/title_activity_favourite"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".MScanActivity"
+            android:label="@string/title_activity_mscan" >
+        </activity>
+        <activity
+            android:name=".LogIn.AddressActivity"
+            android:label="@string/title_activity_address" >
+        </activity>
+        <activity
+            android:name=".LogIn.AddAddressActivity"
+            android:label="@string/title_activity_add_address" >
+        </activity>
+        <activity
+            android:name=".LogIn.EditAddressActivity"
+            android:label="@string/title_activity_edit_address" >
+        </activity>
+    </application>
+
+</manifest>

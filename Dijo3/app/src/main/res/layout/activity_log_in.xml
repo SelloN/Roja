@@ -1,0 +1,112 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.natech.roja.LogIn.LogInActivity"
+    android:background="@color/myPrimaryColor"
+    android:id="@+id/LoginLayout">
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/roja_logo"
+        android:layout_above="@+id/fieldsLayout"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"/>
+
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/fieldsLayout">
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/messageTV"
+            android:visibility="invisible"
+            android:background="@color/errorColor"
+            android:textColor="@color/white"
+            android:gravity="center"
+             />
+        <EditText
+            android:layout_marginTop="16dp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/emailLogED"
+            android:theme="@style/MyEditTextTheme"
+            android:hint="@string/email_hint"
+            android:textColorHint="@color/white"
+            android:textColor="@color/white"
+
+            />
+
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/passwordLogED"
+            android:layout_below="@+id/emailLogED"
+            android:layout_centerHorizontal="true"
+            android:hint="@string/password_hint"
+            android:textColorHint="@color/white"
+            android:theme="@style/MyEditTextTheme"
+            android:textColor="@color/white"/>
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="@string/remember_me"
+            android:textColor="@color/white"
+            android:theme="@style/MyEditTextTheme"
+            android:id="@+id/rememberCheckBox"
+            android:layout_below="@+id/passwordLogED"
+            android:layout_centerHorizontal="true" />
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in"
+            android:id="@+id/logInBtn"
+            android:layout_below="@+id/rememberCheckBox"
+            android:layout_centerHorizontal="true"
+            android:textColor="@color/white"
+            android:background="@drawable/my_buttons"
+            android:layout_marginTop="12dp"/>
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up"
+            android:id="@+id/signUpBtnLog"
+            android:textColor="@color/white"
+            android:background="@drawable/my_buttons"
+            android:layout_below="@+id/logInBtn"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="12dp" />
+
+        </RelativeLayout>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forgotButton"
+        android:textSize="12sp"
+        android:textColor="@color/white"
+        android:background="@drawable/button_selector"
+        android:text="@string/forgotPasswordText"
+        android:layout_below="@+id/fieldsLayout"
+        android:layout_centerHorizontal="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginTop="40dp" />
+    <android.support.design.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/snackbarPosition">
+    </android.support.design.widget.CoordinatorLayout>
+
+
+
+</RelativeLayout>

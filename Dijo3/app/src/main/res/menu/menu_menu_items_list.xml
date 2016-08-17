@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.natech.roja.MenuCategories.MenuItemsListActivity">
+    <item android:id="@+id/check_out" android:title="@string/check_out"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/ic_check_out2"/>
+</menu>
