@@ -1,7 +1,7 @@
 package com.natech.roja.LogIn;
 
 /**
- * Created by Tshepo on 2016/04/17.
+ * Created by Sello on 2016/04/17.
  */
 public class Address {
 
