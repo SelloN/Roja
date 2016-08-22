@@ -5,7 +5,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
 /**
- * Created by Tshepo on 2015/07/06.
+ * Created by Sello on 2015/07/06.
  */
 @SuppressWarnings("DefaultFileTemplate")
 class ViewPagerAdapter extends FragmentStatePagerAdapter {
