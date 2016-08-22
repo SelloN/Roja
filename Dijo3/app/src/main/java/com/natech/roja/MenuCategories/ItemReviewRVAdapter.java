@@ -12,7 +12,7 @@ import com.natech.roja.Restaurants.Review;
 import java.util.List;
 
 /**
- * Created by Tshepo on 2015/07/29.
+ * Created by Sello on 2015/07/29.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class ItemReviewRVAdapter extends RecyclerView.Adapter<ItemReviewRVAdapter.ReviewHolder> {
