@@ -18,7 +18,7 @@ import com.natech.roja.R;
 import java.util.List;
 
 /**
- * Created by Tshepo on 2015/06/20.
+ * Created by Sello on 2015/06/20.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class MenuListRVAdapter extends RecyclerView.Adapter<MenuListRVAdapter.MenuItemHolder>
