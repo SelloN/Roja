@@ -57,7 +57,7 @@ import java.util.Map;
 
 
 /**
- * Created by Tshepo on 2015/06/21. This class handles the core and critical functions of the app.
+ * Created by Selloo on 2015/06/21. This class handles the core and critical functions of the app.
  * It sorts out the items the user has added into the cart and lists them accordingly. It also updates
  * the OrderedFragment whenever orders are sent through to the server.
  */
