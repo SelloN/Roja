@@ -6,7 +6,7 @@ import android.content.Intent;
 import android.widget.Toast;
 
 /**
- * Created by Tshepo on 2015/07/11.
+ * Created by Sello on 2015/07/11.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class MyReceiver extends BroadcastReceiver {
