@@ -4,7 +4,7 @@ package com.natech.roja.MenuCategories;
 import com.natech.roja.Restaurants.Restaurant;
 
 /**
- * Created by Tshepo on 2015/06/20.
+ * Created by Sello on 2015/06/20.
  */
 @SuppressWarnings({"SameParameterValue", "DefaultFileTemplate"})
 public class MenuItem {
