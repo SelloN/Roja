@@ -19,7 +19,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Tshepo on 2015/06/16.
+ * Created by Sello on 2015/06/16.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class RVAdapter extends RecyclerView.Adapter<RVAdapter.RestaurantHolder> {
