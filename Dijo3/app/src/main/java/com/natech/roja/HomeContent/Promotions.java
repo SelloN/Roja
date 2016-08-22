@@ -1,7 +1,7 @@
 package com.natech.roja.HomeContent;
 
 /**
- * Created by Tshepo on 2015/07/09.
+ * Created by Selloo on 2015/07/09.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class Promotions  {
