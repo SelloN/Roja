@@ -1,7 +1,7 @@
 package com.natech.roja.HomeContent;
 
 /**
- * Created by Tshepo on 2015/08/23.
+ * Created by Sello on 2015/08/23.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class WeeklyContent {
