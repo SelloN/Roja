@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
 /**
- * Created by Tshepo on 2016/02/05.
+ * Created by Sello on 2016/02/05.
  */
 public class DBHelper extends SQLiteOpenHelper {
 
