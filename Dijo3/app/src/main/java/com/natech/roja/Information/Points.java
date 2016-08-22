@@ -1,7 +1,7 @@
 package com.natech.roja.Information;
 
 /**
- * Created by Tshepo on 2015/10/30.
+ * Created by Sello on 2015/10/30.
  */
 public class Points {
 
