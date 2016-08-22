@@ -27,7 +27,7 @@ import java.net.URLEncoder;
 import java.util.List;
 
 /**
- * Created by Tshepo on 2015/06/22.
+ * Created by Sello on 2015/06/22.
  */
 @SuppressWarnings({"TryWithIdenticalCatches", "DefaultFileTemplate"})
 public class OrderListAdapter extends RecyclerView.Adapter<OrderListAdapter.OrderHolder>{
