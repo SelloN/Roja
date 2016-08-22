@@ -5,7 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 
 /**
- * Created by Tshepo on 2015/08/04.
+ * Created by Sello on 2015/08/04.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class NetworkChangeReceiver extends BroadcastReceiver{
