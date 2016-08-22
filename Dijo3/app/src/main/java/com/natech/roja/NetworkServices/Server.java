@@ -1,7 +1,7 @@
 package com.natech.roja.NetworkServices;
 
 /**
- * Created by Tshepo on 2015/08/28.
+ * Created by Sello on 2015/08/28.
  * The server class holds all the links to the remote PHP files on
  * the server.
  */
