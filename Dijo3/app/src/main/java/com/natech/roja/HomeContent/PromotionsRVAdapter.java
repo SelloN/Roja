@@ -18,7 +18,7 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 
 /**
- * Created by Tshepo on 2015/07/09.
+ * Created by Sello on 2015/07/09.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class PromotionsRVAdapter extends RecyclerView.Adapter<PromotionsRVAdapter.PromotionHolder> {
