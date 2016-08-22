@@ -1,7 +1,7 @@
 package com.natech.roja.HomeContent;
 
 /**
- * Created by Tshepo on 2015/08/22.
+ * Created by Sello on 2015/08/22.
  */
 @SuppressWarnings("DefaultFileTemplate")
 class RestaurantWeek {
