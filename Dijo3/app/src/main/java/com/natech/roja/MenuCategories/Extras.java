@@ -1,7 +1,7 @@
 package com.natech.roja.MenuCategories;
 
 /**
- * Created by Tshepo on 2015/07/27.
+ * Created by Sello on 2015/07/27.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class Extras {
