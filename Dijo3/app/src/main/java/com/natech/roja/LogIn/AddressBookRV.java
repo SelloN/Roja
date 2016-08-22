@@ -20,7 +20,7 @@ import com.natech.roja.Utilities.CommonIdentifiers;
 import java.util.List;
 
 /**
- * Created by Tshepo on 2016/04/17.
+ * Created by Sello on 2016/04/17.
  */
 public class AddressBookRV extends RecyclerView.Adapter<AddressBookRV.AddressBookHolder> {
 
