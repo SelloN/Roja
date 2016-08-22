@@ -13,7 +13,7 @@ import com.natech.roja.R;
 import java.util.List;
 
 /**
- * Created by Tshepo on 2015/10/30.
+ * Created by Sello on 2015/10/30.
  */
 public class ClaimsRVAdapter extends RecyclerView.Adapter<ClaimsRVAdapter.ClaimsHolder> {
 
