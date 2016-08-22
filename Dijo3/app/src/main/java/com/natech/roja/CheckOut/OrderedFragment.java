@@ -42,7 +42,7 @@ import java.util.List;
 
 
 /**
- * Created by Tshepo on 2015/06/21.
+ * Created by Selloo on 2015/06/21.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class OrderedFragment extends Fragment {
