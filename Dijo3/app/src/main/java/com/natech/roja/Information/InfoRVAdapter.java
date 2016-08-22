@@ -21,7 +21,7 @@ import com.natech.roja.R;
 
 
 /**
- * Created by Tshepo on 2015/08/14.
+ * Created by Sello on 2015/08/14.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class InfoRVAdapter extends RecyclerView.Adapter<InfoRVAdapter.InfoHolder> {
