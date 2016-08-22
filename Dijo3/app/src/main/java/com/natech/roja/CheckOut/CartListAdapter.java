@@ -21,7 +21,7 @@ import com.natech.roja.Utilities.CommonIdentifiers;
 import java.util.List;
 
 /**
- * Created by Tshepo on 2015/06/16.
+ * Created by Sello on 2015/06/16.
  * Recyclerview adapter that holds the items of the cart
  */
 public class CartListAdapter extends RecyclerView.Adapter<CartListAdapter.RestaurantHolder>{
