@@ -19,7 +19,7 @@ import com.squareup.picasso.Picasso;
 import java.util.List;
 
 /**
- * Created by Tshepo on 2015/08/22.
+ * Created by Sello on 2015/08/22.
  */
 @SuppressWarnings("DefaultFileTemplate")
 public class WeekRVAdapter extends RecyclerView.Adapter<WeekRVAdapter.WeekHolder>{
