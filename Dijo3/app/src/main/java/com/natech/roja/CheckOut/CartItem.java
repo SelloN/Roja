@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Created by Tshepo on 2015/06/18.
+ * Created by Sello on 2015/06/18.
  * CartItem stores the values that are associated with the items the user selects from the menu.
  */
 @SuppressWarnings("SameParameterValue")
