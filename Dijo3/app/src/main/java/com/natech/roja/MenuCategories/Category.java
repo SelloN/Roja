@@ -1,7 +1,7 @@
 package com.natech.roja.MenuCategories;
 
 /**
- * Created by Tshepo on 2015/06/17. Class that holds the values for the menu categories
+ * Created by Sello on 2015/06/17. Class that holds the values for the menu categories
  */
 @SuppressWarnings("SameParameterValue")
 public class Category {
